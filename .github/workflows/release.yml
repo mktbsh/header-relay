@@ -46,16 +46,27 @@ jobs:
           commit-message: "chore: release"
           pr-title: "chore: release"
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          create-github-releases: true
+          # Immutable releases reject assets added after publishing, so gh creates the release with the zip below.
+          create-github-releases: false
 
       - name: Build extension zip
         if: steps.changesets.outputs.published == 'true'
         run: pnpm zip
 
-      - name: Upload zip to GitHub release
+      - name: Create GitHub release with zip
         if: steps.changesets.outputs.published == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           version="$(node -p "require('./package.json').version")"
-          gh release upload "v${version}" .output/*.zip --clobber
+          notes="${RUNNER_TEMP}/release-notes.md"
+          awk -v heading="## ${version}" '
+            $0 == heading { found = 1; next }
+            found && /^## / { exit }
+            found { print }
+          ' CHANGELOG.md > "${notes}"
+          test -s "${notes}"
+          gh release create "v${version}" .output/*.zip \
+            --verify-tag \
+            --title "v${version}" \
+            --notes-file "${notes}"

@@ -14,8 +14,8 @@ main への push ── Release ワークフローが「chore: release」PR を�
         ▼
 main への push ── Release ワークフローが以下を実行
                   1. v{version} タグを作成
-                  2. CHANGELOG を本文にした GitHub Release を作成
-                  3. 拡張機能の zip をビルドして Release に添付
+                  2. 拡張機能の zip をビルド
+                  3. CHANGELOG を本文にし zip を添付した GitHub Release を作成
 ```
 
 ## 開発者がやること
@@ -48,8 +48,8 @@ changeset を含む PR が main にマージされると、Release ワークフ�
 リリースしたいタイミングでこの PR をマージしてください。マージすると自動で:
 
 1. `v{version}` タグが作成される
-2. GitHub Release が作成される(本文は CHANGELOG のエントリ)
-3. `wxt zip` でビルドした拡張機能の zip が Release に添付される
+2. `wxt zip` で拡張機能の zip がビルドされる
+3. zip を添付した GitHub Release が作成される(本文は CHANGELOG のエントリ)
 
 ## バージョンと manifest
 
@@ -63,6 +63,9 @@ changeset を含む PR が main にマージされると、Release ワークフ�
   リリース PR の内容は version bump と CHANGELOG のみなのでリスクは低いですが、
   ブランチ保護で CI を必須にする場合は PAT か GitHub App トークンを
   `changesets/action` の checkout に渡す構成への変更が必要です。
+- **GitHub Release は immutable です**: 公開後はタグと添付ファイルを変更・削除できず、
+  同じタグ名も再利用できません。zip の差し替えが必要なら新しいバージョンをリリースします。
+  公開前に添付を済ませるため、Release は changesets ではなく `gh release create` で作成します。
 - **Chrome Web Store への提出は手動です**: Release に添付された zip をダウンロードして
   ダッシュボードからアップロードしてください(`docs/chrome-web-store/` 参照)。
 - 次のリリースに含まれる変更を確認するには `pnpm changeset status` を実行します。
