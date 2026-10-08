@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "solidjs-best-practices": {
+      "source": "mktbsh/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/solidjs-best-practices/SKILL.md",
+      "computedHash": "27e83916647fa691f39f9faf516cbcd930391b473f1e437cc2f60c7e1e094826"
+    }
+  }
+}

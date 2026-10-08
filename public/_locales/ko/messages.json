@@ -1,0 +1,794 @@
+{
+  "extName": {
+    "message": "Header Relay — HTTP 요청 헤더 수정 및 응답 헤더 캡처"
+  },
+  "extDescription": {
+    "message": "HTTP 응답 헤더를 캡처하고 고정 또는 캡처한 헤더를 일치하는 브라우저 요청에 부여하는 Chrome 확장 프로그램입니다."
+  },
+  "commandToggleAllProfiles": {
+    "message": "모든 프로필 전환"
+  },
+  "enabled": {
+    "message": "활성"
+  },
+  "disabled": {
+    "message": "비활성"
+  },
+  "remove": {
+    "message": "삭제"
+  },
+  "refresh": {
+    "message": "새로고침"
+  },
+  "yes": {
+    "message": "예"
+  },
+  "no": {
+    "message": "아니요"
+  },
+  "loading": {
+    "message": "불러오는 중..."
+  },
+  "popupRefreshStatus": {
+    "message": "상태 새로고침"
+  },
+  "popupSettings": {
+    "message": "설정"
+  },
+  "popupToggleProfile": {
+    "message": "프로필 활성/비활성 전환"
+  },
+  "popupToggleHeader": {
+    "message": "고정 헤더 활성/비활성 전환"
+  },
+  "dnrSyncError": {
+    "message": "DNR 동기화 오류"
+  },
+  "popupFixedHeaders": {
+    "message": "고정 헤더"
+  },
+  "popupNoFixedHeaders": {
+    "message": "고정 헤더가 설정되지 않았습니다"
+  },
+  "popupThisPage": {
+    "message": "현재 페이지"
+  },
+  "popupNoEditableHeaders": {
+    "message": "이 페이지에서 변경할 수 있는 헤더가 없습니다"
+  },
+  "popupCustomValue": {
+    "message": "사용자 지정: $1"
+  },
+  "popupExposureShow": {
+    "message": "팝업에 표시"
+  },
+  "popupExposureInputType": {
+    "message": "입력 형식"
+  },
+  "popupExposureInputText": {
+    "message": "텍스트"
+  },
+  "popupExposureInputSelect": {
+    "message": "선택지"
+  },
+  "popupExposureOptionLabel": {
+    "message": "라벨"
+  },
+  "popupExposureOptionValue": {
+    "message": "값"
+  },
+  "popupExposureAddOption": {
+    "message": "선택지 추가"
+  },
+  "popupExposureMoveUp": {
+    "message": "선택지를 위로 이동"
+  },
+  "popupExposureMoveDown": {
+    "message": "선택지를 아래로 이동"
+  },
+  "popupCapturedHeaders": {
+    "message": "캡처 헤더"
+  },
+  "popupEnableProfileHint": {
+    "message": "헤더를 부여하려면 프로필을 활성화하세요"
+  },
+  "popupNoCapturedValues": {
+    "message": "캡처된 값이 없습니다"
+  },
+  "popupClearCapturedValues": {
+    "message": "캡처된 값 지우기"
+  },
+  "privacyPolicy": {
+    "message": "개인정보 처리방침"
+  },
+  "popupCreateProfileHint": {
+    "message": "프로필 관리에서 프로필을 만들면 헤더 릴레이를 시작할 수 있습니다."
+  },
+  "popupOpenSettings": {
+    "message": "프로필 관리 열기"
+  },
+  "statusCaptured": {
+    "message": "캡처됨"
+  },
+  "statusWaiting": {
+    "message": "대기 중"
+  },
+  "timeJustNow": {
+    "message": "방금 전"
+  },
+  "timeMinutesAgo": {
+    "message": "$1분 전"
+  },
+  "timeHoursAgo": {
+    "message": "$1시간 전"
+  },
+  "timeDaysAgo": {
+    "message": "$1일 전"
+  },
+  "manageReload": {
+    "message": "다시 불러오기"
+  },
+  "manageReloadConfirm": {
+    "message": "저장되지 않은 변경을 버리고 다시 불러오시겠습니까?"
+  },
+  "dismissMessage": {
+    "message": "닫기"
+  },
+  "unsavedChanges": {
+    "message": "저장되지 않은 변경사항"
+  },
+  "manageSaving": {
+    "message": "저장 중..."
+  },
+  "manageSave": {
+    "message": "저장"
+  },
+  "manageSavedNotice": {
+    "message": "저장하고 적용했습니다."
+  },
+  "manageCapturedCleared": {
+    "message": "캡처된 값을 지웠습니다."
+  },
+  "manageLogsCleared": {
+    "message": "감사 로그를 지웠습니다."
+  },
+  "profileNameRequired": {
+    "message": "프로필 이름은 필수입니다."
+  },
+  "profileNameDuplicate": {
+    "message": "같은 이름의 프로필이 이미 있습니다."
+  },
+  "profileSettingsTitle": {
+    "message": "프로필 설정"
+  },
+  "profileSettingsDescription": {
+    "message": "선택한 프로필의 이름을 바꾸거나 복제 또는 삭제합니다."
+  },
+  "profileEnabledLabel": {
+    "message": "프로필 활성화"
+  },
+  "profileEnabledDescription": {
+    "message": "비활성 프로필은 헤더를 캡처하거나 첨부하지 않습니다. 프로필을 비활성화하면 캡처된 값도 지워집니다."
+  },
+  "profileLabel": {
+    "message": "프로필"
+  },
+  "profilesLabel": {
+    "message": "프로필"
+  },
+  "profileNameLabel": {
+    "message": "프로필 이름"
+  },
+  "newProfile": {
+    "message": "새로 만들기"
+  },
+  "createProfileTitle": {
+    "message": "프로필 만들기"
+  },
+  "createProfile": {
+    "message": "만들기"
+  },
+  "cancel": {
+    "message": "취소"
+  },
+  "deleteProfile": {
+    "message": "프로필 삭제"
+  },
+  "duplicateProfile": {
+    "message": "프로필 복제"
+  },
+  "profileDuplicated": {
+    "message": "프로필을 복제했습니다."
+  },
+  "moveProfileUp": {
+    "message": "$1 위로 이동"
+  },
+  "moveProfileDown": {
+    "message": "$1 아래로 이동"
+  },
+  "profileDeleteConfirm": {
+    "message": "프로필 \"$1\"을(를) 삭제할까요? 캡처된 값도 함께 삭제됩니다."
+  },
+  "compactMode": {
+    "message": "컴팩트"
+  },
+  "settingsTitle": {
+    "message": "설정"
+  },
+  "settingsGeneralTab": {
+    "message": "일반"
+  },
+  "settingsDescription": {
+    "message": "모든 Header Relay 화면에 공통으로 적용되는 설정을 변경합니다."
+  },
+  "settingsAppearance": {
+    "message": "화면 표시"
+  },
+  "settingsCompactDescription": {
+    "message": "확장 프로그램 전체의 여백과 컨트롤을 더 작게 표시합니다."
+  },
+  "settingsPrivacy": {
+    "message": "개인정보"
+  },
+  "settingsPrivacyDescription": {
+    "message": "설정, 캡처한 값, 감사 로그를 처리하는 방법을 확인합니다."
+  },
+  "homepage": {
+    "message": "홈페이지"
+  },
+  "buyMeACoffee": {
+    "message": "Buy Me a Coffee"
+  },
+  "sectionOverview": {
+    "message": "개요"
+  },
+  "sectionOrigins": {
+    "message": "대상 오리진"
+  },
+  "targetOriginLabel": {
+    "message": "대상 오리진"
+  },
+  "sectionHeaders": {
+    "message": "헤더"
+  },
+  "sectionFixed": {
+    "message": "고정 헤더"
+  },
+  "sectionCapture": {
+    "message": "캡처 헤더"
+  },
+  "sectionExclude": {
+    "message": "제외 경로"
+  },
+  "sectionProbe": {
+    "message": "URL 프로브"
+  },
+  "sectionLogs": {
+    "message": "감사 로그"
+  },
+  "sectionAdvanced": {
+    "message": "고급 설정"
+  },
+  "advancedSettingsDescription": {
+    "message": "URL 프로브를 실행하고, 감사 로그를 확인하거나 전체 설정 JSON을 편집합니다."
+  },
+  "advancedJsonEditorTab": {
+    "message": "JSON 편집"
+  },
+  "tileTargetOrigins": {
+    "message": "대상 오리진"
+  },
+  "tileFixedHeadersSummary": {
+    "message": "설정됨 / 적용 중인 고정 헤더"
+  },
+  "tileCapturedValues": {
+    "message": "캡처된 값"
+  },
+  "tileDnrSessionRules": {
+    "message": "DNR 세션 규칙"
+  },
+  "activeHeadersTitle": {
+    "message": "일치하는 요청에 적용되는 헤더"
+  },
+  "activeHeadersDescription": {
+    "message": "이 프로필이 요청 URL과 일치할 때 부여되는 헤더입니다."
+  },
+  "noActiveHeaders": {
+    "message": "활성화된 요청 헤더가 없습니다."
+  },
+  "capturedPanelTitle": {
+    "message": "캡처된 값"
+  },
+  "capturedPanelDescription": {
+    "message": "현재 확장 프로그램 세션에 저장된 최신 응답 헤더 값입니다."
+  },
+  "noCapturedValues": {
+    "message": "캡처된 값이 없습니다."
+  },
+  "copyCapturedValue": {
+    "message": "복사"
+  },
+  "copiedCapturedValue": {
+    "message": "복사됨"
+  },
+  "sessionValuesTitle": {
+    "message": "현재 세션 값"
+  },
+  "clearCapturedValues": {
+    "message": "캡처된 값 지우기"
+  },
+  "clearCapturedValuesDescription": {
+    "message": "현재 캡처된 값만 지우고 프로필과 헤더 설정은 유지합니다. 프로필을 비활성화해도 캡처된 값이 지워집니다."
+  },
+  "originsDescription": {
+    "message": "헤더 에뮬레이션을 허용하는 오리진입니다. 이 외의 오리진에 대한 요청은 무시됩니다."
+  },
+  "originAccessGranted": {
+    "message": "허용됨"
+  },
+  "originAccessRequired": {
+    "message": "허용 필요"
+  },
+  "originUnsupported": {
+    "message": "지원되지 않는 오리진"
+  },
+  "originGrantAccess": {
+    "message": "액세스 허용"
+  },
+  "originsPermissionNote": {
+    "message": "저장 시 추가한 오리진에 대한 호스트 권한을 요청합니다. 권한은 해당 호스트의 모든 포트에 적용되며 이 확장 프로그램의 헤더 중계에만 사용됩니다. Chrome 확장 프로그램 설정에서 언제든지 해제할 수 있습니다."
+  },
+  "revokeOrphanedConfirm": {
+    "message": "어떤 프로필에서도 더 이상 사용되지 않는 호스트 권한이 있습니다:\n$1\n지금 해제하시겠습니까?"
+  },
+  "popupAccessRequired": {
+    "message": "다음 오리진에 대한 호스트 권한이 필요합니다:"
+  },
+  "addOrigin": {
+    "message": "오리진 추가"
+  },
+  "fixedDescription": {
+    "message": "이름과 값은 삭제할 때까지 확장 프로그램의 로컬 설정에 저장됩니다. 활성화된 값은 일치하는 요청에만 첨부되며 다른 곳으로 전송되지 않습니다."
+  },
+  "addFixedHeader": {
+    "message": "고정 헤더 추가"
+  },
+  "captureDescription": {
+    "message": "일치하는 응답에서 지정된 이름만 읽습니다. 값은 현재 브라우저 세션 동안 메모리에만 유지되고 일치하는 요청에만 재사용되며, 브라우저 재시작, 프로필 비활성화 또는 규칙 변경 시 지워집니다."
+  },
+  "addCapturedHeader": {
+    "message": "캡처 헤더 추가"
+  },
+  "headerNameLabel": {
+    "message": "헤더 이름"
+  },
+  "headerValueLabel": {
+    "message": "헤더 값"
+  },
+  "sensitiveHeaderWarning": {
+    "message": "민감한 헤더입니다. 값에 자격 증명이 포함될 수 있습니다. 테스트용 자격 증명을 사용하고 대상 오리진을 제한하세요."
+  },
+  "cookieHeaderWarning": {
+    "message": "민감한 헤더입니다. Cookie를 덮어쓰면 Chrome의 쿠키 저장소 및 인증 상태와 충돌할 수 있습니다. 대상 오리진을 제한하고 테스트 데이터를 사용하세요."
+  },
+  "blockedHeaderWarning": {
+    "message": "사용할 수 없습니다. 응답 전용, 요청 권한, 메시지 프레이밍, 프록시 및 연결 헤더는 안전하게 중계할 수 없습니다."
+  },
+  "excludeDescription": {
+    "message": "대상 오리진 내에서 에뮬레이터가 관리하는 헤더를 제거할 glob 패턴입니다."
+  },
+  "addPath": {
+    "message": "경로 추가"
+  },
+  "excludedPathHelpTitle": {
+    "message": "glob 일치"
+  },
+  "excludedPathHelp": {
+    "message": "/assets/** 같은 glob을 입력하세요. *는 한 세그먼트 내, **는 세그먼트를 넘는 임의, ?는 한 글자에 일치합니다. pathname 전체와 일치해야 하므로 /assets는 /assets에만 일치합니다(하위 전체는 /assets/** 사용). 쿼리와 해시는 무시되며 대상 origin 안에서만 평가됩니다."
+  },
+  "excludedPathLabel": {
+    "message": "제외 경로"
+  },
+  "excludedPathRequired": {
+    "message": "경로를 입력하세요."
+  },
+  "excludedPathMustStartWithSlash": {
+    "message": "/로 시작하는 경로를 입력하세요."
+  },
+  "excludedPathUrlNotAllowed": {
+    "message": "전체 URL이 아니라 /assets/** 같은 경로를 입력하세요."
+  },
+  "excludedPathSingleLine": {
+    "message": "경로를 한 줄로 입력하세요."
+  },
+  "excludedPathRootWarning": {
+    "message": "/**는 이 프로필의 대상 origin 안에 있는 모든 URL을 제외합니다."
+  },
+  "excludedPathTesterTitle": {
+    "message": "제외 경로 테스터"
+  },
+  "excludedPathTesterDescription": {
+    "message": "현재 저장되지 않은 프로필 초안에 실제 URL을 테스트합니다."
+  },
+  "excludedPathTesterOrigin": {
+    "message": "대상 origin"
+  },
+  "excludedPathTesterExcluded": {
+    "message": "제외됨"
+  },
+  "excludedPathTesterMatched": {
+    "message": "일치한 패턴"
+  },
+  "probeDescription": {
+    "message": "URL을 방문하기 전에 일치·제외 여부와 부여될 요청 헤더를 확인할 수 있습니다."
+  },
+  "runProbe": {
+    "message": "프로브 실행"
+  },
+  "testUrlLabel": {
+    "message": "테스트할 URL"
+  },
+  "probeUrlRequired": {
+    "message": "URL을 입력하세요."
+  },
+  "probeUrlInvalid": {
+    "message": "유효한 절대 URL을 입력하세요."
+  },
+  "probeTestedUrl": {
+    "message": "테스트한 URL"
+  },
+  "probeTestedUrlDesc": {
+    "message": "현재 초안에 대해 평가한 정규화된 URL입니다."
+  },
+  "probeAllowed": {
+    "message": "허용"
+  },
+  "probeAllowedDesc": {
+    "message": "'예'는 활성 프로필 중 하나가 이 URL에 헤더를 추가한다는 의미입니다."
+  },
+  "probeExcluded": {
+    "message": "제외"
+  },
+  "probeAttach": {
+    "message": "부여"
+  },
+  "auditDescription": {
+    "message": "URL 일치, 헤더 캡처, 세션 변경, DNR 규칙 동기화의 실행 기록입니다. 요청 URL은 현재 브라우저 세션 동안에만 메모리에 유지되며 디스크에 저장되지 않습니다."
+  },
+  "auditLevel": {
+    "message": "최소 심각도"
+  },
+  "auditLevelAll": {
+    "message": "모두"
+  },
+  "auditLevelInfoUp": {
+    "message": "info 이상"
+  },
+  "auditLevelWarnUp": {
+    "message": "warn 이상"
+  },
+  "auditLevelErrorOnly": {
+    "message": "error만"
+  },
+  "auditLevelBadgeDebug": {
+    "message": "디버그"
+  },
+  "auditLevelBadgeInfo": {
+    "message": "정보"
+  },
+  "auditLevelBadgeWarn": {
+    "message": "경고"
+  },
+  "auditLevelBadgeError": {
+    "message": "오류"
+  },
+  "auditEventOriginMatched": {
+    "message": "오리진 일치"
+  },
+  "auditEventHeadersCaptured": {
+    "message": "헤더 캡처됨"
+  },
+  "auditEventSessionCleared": {
+    "message": "세션 지움"
+  },
+  "auditEventConfigCompiled": {
+    "message": "설정 컴파일됨"
+  },
+  "auditEventDnrRulesSynced": {
+    "message": "요청 규칙 동기화됨"
+  },
+  "auditEventCookiesUpdated": {
+    "message": "Cookie 업데이트됨"
+  },
+  "auditEventCookieParseFailed": {
+    "message": "Cookie 파싱 실패"
+  },
+  "auditEventError": {
+    "message": "오류"
+  },
+  "clearLogs": {
+    "message": "로그 지우기"
+  },
+  "noAuditLogs": {
+    "message": "감사 로그가 없습니다."
+  },
+  "noAuditLogsAtLevel": {
+    "message": "이 심각도의 로그가 없습니다."
+  },
+  "auditFullUrl": {
+    "message": "전체 URL"
+  },
+  "auditMessage": {
+    "message": "메시지"
+  },
+  "auditTab": {
+    "message": "탭"
+  },
+  "auditRequest": {
+    "message": "요청"
+  },
+  "auditHeaders": {
+    "message": "헤더"
+  },
+  "auditData": {
+    "message": "데이터"
+  },
+  "advancedDescription": {
+    "message": "설정을 자세히 확인하거나 복구할 때 JSON을 직접 편집할 수 있습니다."
+  },
+  "applyJson": {
+    "message": "JSON 적용"
+  },
+  "configJsonLabel": {
+    "message": "설정 JSON"
+  },
+  "exportConfig": {
+    "message": "설정 내보내기"
+  },
+  "importConfig": {
+    "message": "설정 가져오기"
+  },
+  "includeSecretValues": {
+    "message": "비밀 값 포함"
+  },
+  "configReplaceConfirm": {
+    "message": "기존 설정을 모두 바꿉니다. 계속하시겠습니까?"
+  },
+  "configExported": {
+    "message": "설정을 내보냈습니다."
+  },
+  "configImported": {
+    "message": "설정을 가져왔습니다."
+  },
+  "compileErrorTitle": {
+    "message": "컴파일 오류"
+  },
+  "compileWarningsTitle": {
+    "message": "컴파일 경고"
+  },
+  "compileWarningNoTargetOrigins": {
+    "message": "프로필 \"$1\"에 활성화된 대상 오리진이 없습니다."
+  },
+  "compileWarningNoHeaders": {
+    "message": "프로필 \"$1\"은 아직 헤더를 추가하지 않습니다."
+  },
+  "compileWarningExcludedPathsRemoveHeaders": {
+    "message": "프로필 \"$1\"은 제외 경로에서 자신이 릴레이하는 헤더를 제거합니다."
+  },
+  "compileWarningCookieExclusion": {
+    "message": "$1에서는 Cookie 규칙을 적용하지 않습니다. 제외 경로($2)에서 브라우저 원래의 Cookie를 유지할 수 없으므로 이 오리진에서는 원래 Cookie가 그대로 전송됩니다."
+  },
+  "compileErrorHeaderConflict": {
+    "message": "$2의 헤더 \"$1\"을 여러 활성 프로필($3)이 설정합니다. 하나만 남기고 비활성화하세요."
+  },
+  "compileErrorCookieConflict": {
+    "message": "$2의 Cookie \"$1\"을 여러 활성 프로필($3)이 설정합니다. 하나만 남기고 비활성화하세요."
+  },
+  "runtimeStatusTitle": {
+    "message": "런타임 상태"
+  },
+  "runtimeStatusDescription": {
+    "message": "활성화된 모든 프로필이 현재 브라우저에 어떻게 적용되어 있는지 보여 줍니다."
+  },
+  "tileEnabledProfiles": {
+    "message": "활성 프로필"
+  },
+  "tileProfileDnrRules": {
+    "message": "이 프로필의 DNR 규칙"
+  },
+  "tileCompileErrors": {
+    "message": "컴파일 오류"
+  },
+  "tileCompileWarnings": {
+    "message": "컴파일 경고"
+  },
+  "probeMatchedProfiles": {
+    "message": "일치한 프로필"
+  },
+  "probeNoMatchedProfiles": {
+    "message": "이 URL과 일치하는 활성 프로필이 없습니다."
+  },
+  "probeMatchedProfileCount": {
+    "message": "일치한 프로필 수"
+  },
+  "probeMatchedProfileCountDesc": {
+    "message": "대상 오리진이 이 URL과 일치한 활성 프로필 수입니다."
+  },
+  "probeEffectiveHeaders": {
+    "message": "최종 헤더"
+  },
+  "probeEffectiveHeadersDesc": {
+    "message": "제외 경로와 충돌을 반영한 뒤 실제로 추가되는 헤더 이름입니다."
+  },
+  "probeCookieHeader": {
+    "message": "Cookie 헤더"
+  },
+  "probeCookieHeaderDesc": {
+    "message": "대상 URL로 전송되는 최종 Cookie 헤더 값입니다. `none`이면 Chrome이 생성한 원래 Cookie가 변경 없이 전달됩니다."
+  },
+  "probeCookieHeaderNone": {
+    "message": "none (Chrome의 원래 값이 그대로 전달됨)"
+  },
+  "popupEnabledProfiles": {
+    "message": "활성 프로필"
+  },
+  "popupProfiles": {
+    "message": "프로필"
+  },
+  "popupNoProfiles": {
+    "message": "프로필이 없습니다"
+  },
+  "popupAllProfilesDisabled": {
+    "message": "활성화된 프로필이 없습니다"
+  },
+  "popupCapturedBy": {
+    "message": "캡처한 프로필: $1"
+  },
+  "sectionCookies": {
+    "message": "쿠키"
+  },
+  "sectionMigration": {
+    "message": "마이그레이션 문제"
+  },
+  "cookiesDescription": {
+    "message": "요청에 첨부할 쿠키입니다. 고정 쿠키는 항상 적용되고, 추적 쿠키는 Set-Cookie 응답에서 값을 캡처합니다."
+  },
+  "addFixedCookie": {
+    "message": "고정 쿠키 추가"
+  },
+  "addTrackedCookie": {
+    "message": "추적 쿠키 추가"
+  },
+  "fixedCookiesTitle": {
+    "message": "고정 쿠키"
+  },
+  "trackedCookiesTitle": {
+    "message": "추적 쿠키"
+  },
+  "cookieNameLabel": {
+    "message": "쿠키 이름"
+  },
+  "cookieValueLabel": {
+    "message": "쿠키 값"
+  },
+  "trackedCookieValueLabel": {
+    "message": "캡처된 값"
+  },
+  "clearTrackedCookieAction": {
+    "message": "값 지우기"
+  },
+  "clearAllTrackedCookies": {
+    "message": "추적 쿠키 값 모두 지우기"
+  },
+  "clearAllTrackedCookiesConfirm": {
+    "message": "이 프로필에서 추적 중인 Cookie 값을 모두 지울까요?"
+  },
+  "noFixedCookies": {
+    "message": "설정된 고정 쿠키가 없습니다."
+  },
+  "noTrackedCookies": {
+    "message": "설정된 추적 쿠키가 없습니다."
+  },
+  "noTrackedCookieValue": {
+    "message": "아직 캡처되지 않음"
+  },
+  "migrationIssuesDescription": {
+    "message": "자동으로 마이그레이션되지 않은 이전 Cookie 헤더 설정입니다. 아래에서 쿠키를 다시 구성한 후 삭제하세요."
+  },
+  "migrationIssueDismiss": {
+    "message": "삭제"
+  },
+  "migrationIssueSourceFixed": {
+    "message": "고정 헤더 “Cookie”"
+  },
+  "migrationIssueSourceCapture": {
+    "message": "캡처 헤더 “Cookie”"
+  },
+  "migrationIssueReasonPopupMismatch": {
+    "message": "팝업 선택 옵션을 재현할 수 없습니다."
+  },
+  "migrationIssueReasonParseFail": {
+    "message": "쿠키 값을 파싱할 수 없습니다."
+  },
+  "migrationIssueReasonDuplicate": {
+    "message": "여러 헤더에서 쿠키 이름이 중복됩니다."
+  },
+  "migrationIssueReasonCapture": {
+    "message": "캡처된 Cookie 헤더에서 대상 이름을 명확히 알 수 없습니다."
+  },
+  "migrationIssueOriginalHeaderLabel": {
+    "message": "원래 값"
+  },
+  "noMigrationIssues": {
+    "message": "마이그레이션 문제가 없습니다."
+  },
+  "popupCookiesTitle": {
+    "message": "쿠키"
+  },
+  "popupCookieFixedLabel": {
+    "message": "고정"
+  },
+  "popupCookieTrackedLabel": {
+    "message": "추적"
+  },
+  "popupCookieNoValueYet": {
+    "message": "아직 캡처되지 않음"
+  },
+  "popupCookieClearAll": {
+    "message": "추적 쿠키 지우기"
+  },
+  "popupCookieClearOne": {
+    "message": "지우기"
+  },
+  "popupNoCookies": {
+    "message": "이 페이지의 쿠키가 없습니다."
+  },
+  "popupNoMatchTitle": {
+    "message": "이 사이트를 대상으로 하는 프로필이 없습니다."
+  },
+  "popupNoMatchHint": {
+    "message": "이 사이트의 오리진을 프로필에 추가하면 여기에서 헤더를 릴레이할 수 있습니다."
+  },
+  "popupAddOrigin": {
+    "message": "이 사이트 추가"
+  },
+  "popupUnsupportedPage": {
+    "message": "Header Relay는 http 및 https 페이지에만 적용됩니다."
+  },
+  "runtimeStaleRules": {
+    "message": "확장 규칙을 업데이트할 수 없습니다. 이전 규칙 세트가 계속 적용됩니다 — 새로 고침으로 해결될 수 있습니다."
+  },
+  "runtimeStaleFailedRules": {
+    "message": "경고: DNR 업데이트와 remove-only 재시도 모두 실패했습니다. 오래된 규칙이 계속 전송될 수 있습니다."
+  },
+  "rateOnStore": {
+    "message": "Chrome 웹 스토어에서 평가"
+  },
+  "reviewPromptAskTitle": {
+    "message": "Header Relay가 도움이 되고 있나요?"
+  },
+  "reviewPromptYes": {
+    "message": "네"
+  },
+  "reviewPromptNo": {
+    "message": "부족해요"
+  },
+  "reviewPromptLater": {
+    "message": "나중에"
+  },
+  "reviewPromptRateBody": {
+    "message": "웹 스토어 리뷰는 다른 개발자가 찾는 데 도움이 됩니다."
+  },
+  "reviewPromptRateAction": {
+    "message": "리뷰 작성"
+  },
+  "reviewPromptFeedbackBody": {
+    "message": "개선할 수 있도록 부족한 점을 알려주세요."
+  },
+  "reviewPromptFeedbackAction": {
+    "message": "의견 보내기"
+  },
+  "reviewPromptClose": {
+    "message": "닫기"
+  }
+}

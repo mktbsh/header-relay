@@ -1,0 +1,51 @@
+{
+  "name": "header-relay",
+  "version": "0.10.0",
+  "private": true,
+  "description": "Chrome extension that captures HTTP response headers and relays fixed or captured headers to matching browser requests.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:chrome": "wxt -b chrome",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "store:assets": "HR_E2E=1 pnpm build && playwright test --config=playwright.store-assets.config.ts && node scripts/create-store-promo-tiles.mjs",
+    "compile": "tsc --noEmit",
+    "test": "vitest run",
+    "postinstall": "wxt prepare",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "e2e": "HR_E2E=1 pnpm build && playwright test",
+    "visual:review": "HR_E2E=1 pnpm build && playwright test --config=playwright.visual.config.ts",
+    "visual:review:open": "playwright show-report",
+    "changeset": "changeset",
+    "release:version": "changeset version",
+    "release:tag": "changeset tag"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@tanstack/solid-router": "1.170.18",
+    "@webext-core/messaging": "3.0.2",
+    "@wxt-dev/module-solid": "^1.1.4",
+    "idb": "^8.0.3",
+    "solid-js": "^1.9.14",
+    "tailwindcss": "^4.3.3",
+    "wxt": "0.20.27",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "0.7.0",
+    "@changesets/cli": "3.0.0",
+    "@playwright/test": "1.61.1",
+    "@types/node": "26.1.1",
+    "fake-indexeddb": "6.2.5",
+    "oxfmt": "0.59.0",
+    "oxlint": "1.74.0",
+    "typescript": "^7.0.2",
+    "vite": "8.1.5",
+    "vitest": "^4.1.10"
+  }
+}

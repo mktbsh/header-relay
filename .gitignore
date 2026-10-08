@@ -1,0 +1,10 @@
+node_modules
+.output
+.wxt
+dist
+.DS_Store
+*.log
+docs/chrome-web-store/assets/source/
+test-results/
+playwright-report/
+.context/

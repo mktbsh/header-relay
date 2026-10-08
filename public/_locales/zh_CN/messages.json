@@ -1,0 +1,794 @@
+{
+  "extName": {
+    "message": "Header Relay — 修改 HTTP 请求标头并捕获响应标头"
+  },
+  "extDescription": {
+    "message": "捕获 HTTP 响应标头，并将固定或已捕获的标头附加到匹配的浏览器请求。"
+  },
+  "commandToggleAllProfiles": {
+    "message": "切换所有配置文件"
+  },
+  "enabled": {
+    "message": "已启用"
+  },
+  "disabled": {
+    "message": "已禁用"
+  },
+  "remove": {
+    "message": "删除"
+  },
+  "refresh": {
+    "message": "刷新"
+  },
+  "yes": {
+    "message": "是"
+  },
+  "no": {
+    "message": "否"
+  },
+  "loading": {
+    "message": "加载中..."
+  },
+  "popupRefreshStatus": {
+    "message": "刷新状态"
+  },
+  "popupSettings": {
+    "message": "设置"
+  },
+  "popupToggleProfile": {
+    "message": "切换配置文件"
+  },
+  "popupToggleHeader": {
+    "message": "切换固定标头"
+  },
+  "dnrSyncError": {
+    "message": "DNR 同步错误"
+  },
+  "popupFixedHeaders": {
+    "message": "固定标头"
+  },
+  "popupNoFixedHeaders": {
+    "message": "未配置固定标头"
+  },
+  "popupThisPage": {
+    "message": "当前页面"
+  },
+  "popupNoEditableHeaders": {
+    "message": "此页面没有可编辑的标头"
+  },
+  "popupCustomValue": {
+    "message": "自定义：$1"
+  },
+  "popupExposureShow": {
+    "message": "在弹出窗口中显示"
+  },
+  "popupExposureInputType": {
+    "message": "输入类型"
+  },
+  "popupExposureInputText": {
+    "message": "文本"
+  },
+  "popupExposureInputSelect": {
+    "message": "下拉选择"
+  },
+  "popupExposureOptionLabel": {
+    "message": "标签"
+  },
+  "popupExposureOptionValue": {
+    "message": "值"
+  },
+  "popupExposureAddOption": {
+    "message": "添加选项"
+  },
+  "popupExposureMoveUp": {
+    "message": "上移选项"
+  },
+  "popupExposureMoveDown": {
+    "message": "下移选项"
+  },
+  "popupCapturedHeaders": {
+    "message": "已捕获标头"
+  },
+  "popupEnableProfileHint": {
+    "message": "启用配置文件以附加标头"
+  },
+  "popupNoCapturedValues": {
+    "message": "暂无已捕获的值"
+  },
+  "popupClearCapturedValues": {
+    "message": "清除已捕获的值"
+  },
+  "privacyPolicy": {
+    "message": "隐私政策"
+  },
+  "popupCreateProfileHint": {
+    "message": "在配置文件管理中创建配置文件，开始中继标头。"
+  },
+  "popupOpenSettings": {
+    "message": "打开配置文件管理"
+  },
+  "statusCaptured": {
+    "message": "已捕获"
+  },
+  "statusWaiting": {
+    "message": "等待中"
+  },
+  "timeJustNow": {
+    "message": "刚刚"
+  },
+  "timeMinutesAgo": {
+    "message": "$1 分钟前"
+  },
+  "timeHoursAgo": {
+    "message": "$1 小时前"
+  },
+  "timeDaysAgo": {
+    "message": "$1 天前"
+  },
+  "manageReload": {
+    "message": "重新加载"
+  },
+  "manageReloadConfirm": {
+    "message": "放弃未保存的更改并重新加载？"
+  },
+  "dismissMessage": {
+    "message": "关闭"
+  },
+  "unsavedChanges": {
+    "message": "未保存的更改"
+  },
+  "manageSaving": {
+    "message": "保存中..."
+  },
+  "manageSave": {
+    "message": "保存"
+  },
+  "manageSavedNotice": {
+    "message": "已保存并应用。"
+  },
+  "manageCapturedCleared": {
+    "message": "已清除捕获的值。"
+  },
+  "manageLogsCleared": {
+    "message": "已清除审计日志。"
+  },
+  "profileNameRequired": {
+    "message": "请输入配置文件名称。"
+  },
+  "profileNameDuplicate": {
+    "message": "已存在同名配置文件。"
+  },
+  "profileSettingsTitle": {
+    "message": "配置文件设置"
+  },
+  "profileSettingsDescription": {
+    "message": "重命名、复制或删除所选配置文件。"
+  },
+  "profileEnabledLabel": {
+    "message": "启用配置文件"
+  },
+  "profileEnabledDescription": {
+    "message": "已禁用的配置文件不会捕获或附加标头。禁用配置文件时也会清除其已捕获的值。"
+  },
+  "profileLabel": {
+    "message": "配置文件"
+  },
+  "profilesLabel": {
+    "message": "配置文件"
+  },
+  "profileNameLabel": {
+    "message": "配置文件名称"
+  },
+  "newProfile": {
+    "message": "新建"
+  },
+  "createProfileTitle": {
+    "message": "创建配置文件"
+  },
+  "createProfile": {
+    "message": "创建"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "deleteProfile": {
+    "message": "删除配置文件"
+  },
+  "duplicateProfile": {
+    "message": "复制配置文件"
+  },
+  "profileDuplicated": {
+    "message": "已复制配置文件。"
+  },
+  "moveProfileUp": {
+    "message": "$1上移"
+  },
+  "moveProfileDown": {
+    "message": "$1下移"
+  },
+  "profileDeleteConfirm": {
+    "message": "删除配置文件“$1”？其已捕获的值也将被删除。"
+  },
+  "compactMode": {
+    "message": "紧凑"
+  },
+  "settingsTitle": {
+    "message": "设置"
+  },
+  "settingsGeneralTab": {
+    "message": "常规"
+  },
+  "settingsDescription": {
+    "message": "配置 Header Relay 所有界面共享的设置。"
+  },
+  "settingsAppearance": {
+    "message": "外观"
+  },
+  "settingsCompactDescription": {
+    "message": "在整个扩展中使用更紧凑的间距和更小的控件。"
+  },
+  "settingsPrivacy": {
+    "message": "隐私"
+  },
+  "settingsPrivacyDescription": {
+    "message": "了解 Header Relay 如何处理配置、已捕获的值和审计日志。"
+  },
+  "homepage": {
+    "message": "主页"
+  },
+  "buyMeACoffee": {
+    "message": "Buy Me a Coffee"
+  },
+  "sectionOverview": {
+    "message": "概览"
+  },
+  "sectionOrigins": {
+    "message": "目标源"
+  },
+  "targetOriginLabel": {
+    "message": "目标源"
+  },
+  "sectionHeaders": {
+    "message": "标头"
+  },
+  "sectionFixed": {
+    "message": "固定标头"
+  },
+  "sectionCapture": {
+    "message": "已捕获标头"
+  },
+  "sectionExclude": {
+    "message": "排除路径"
+  },
+  "sectionProbe": {
+    "message": "URL 探测"
+  },
+  "sectionLogs": {
+    "message": "审计日志"
+  },
+  "sectionAdvanced": {
+    "message": "高级设置"
+  },
+  "advancedSettingsDescription": {
+    "message": "运行 URL 探测、查看审核日志或编辑完整的配置 JSON。"
+  },
+  "advancedJsonEditorTab": {
+    "message": "JSON 编辑"
+  },
+  "tileTargetOrigins": {
+    "message": "目标源"
+  },
+  "tileFixedHeadersSummary": {
+    "message": "已配置 / 生效的固定标头"
+  },
+  "tileCapturedValues": {
+    "message": "已捕获的值"
+  },
+  "tileDnrSessionRules": {
+    "message": "DNR 会话规则"
+  },
+  "activeHeadersTitle": {
+    "message": "对匹配请求生效的标头"
+  },
+  "activeHeadersDescription": {
+    "message": "当此配置文件匹配请求 URL 时将附加的标头。"
+  },
+  "noActiveHeaders": {
+    "message": "没有生效的请求标头。"
+  },
+  "capturedPanelTitle": {
+    "message": "已捕获的值"
+  },
+  "capturedPanelDescription": {
+    "message": "当前扩展会话中存储的最新响应标头值。"
+  },
+  "noCapturedValues": {
+    "message": "暂无已捕获的值。"
+  },
+  "copyCapturedValue": {
+    "message": "复制"
+  },
+  "copiedCapturedValue": {
+    "message": "已复制"
+  },
+  "sessionValuesTitle": {
+    "message": "当前会话的值"
+  },
+  "clearCapturedValues": {
+    "message": "清除已捕获的值"
+  },
+  "clearCapturedValuesDescription": {
+    "message": "清除仅删除当前已捕获的值，保留此配置文件及其标头设置。禁用配置文件也会清除这些值。"
+  },
+  "originsDescription": {
+    "message": "允许进行标头模拟的源。这些源之外的请求将被忽略。"
+  },
+  "originAccessGranted": {
+    "message": "已授予访问权限"
+  },
+  "originAccessRequired": {
+    "message": "需要访问权限"
+  },
+  "originUnsupported": {
+    "message": "不支持的源"
+  },
+  "originGrantAccess": {
+    "message": "允许访问"
+  },
+  "originsPermissionNote": {
+    "message": "保存时会为您添加的源请求主机访问权限。该权限覆盖此主机的所有端口，仅用于本扩展的标头中继，可随时在 Chrome 扩展设置中撤销。"
+  },
+  "revokeOrphanedConfirm": {
+    "message": "以下主机权限已不被任何配置文件使用：\n$1\n现在撤销吗？"
+  },
+  "popupAccessRequired": {
+    "message": "需要以下主机的访问权限："
+  },
+  "addOrigin": {
+    "message": "添加源"
+  },
+  "fixedDescription": {
+    "message": "名称和值保存在扩展本地设置中，直到您删除为止。已启用的值仅附加到匹配的请求，不会发送到其他任何地方。"
+  },
+  "addFixedHeader": {
+    "message": "添加固定标头"
+  },
+  "captureDescription": {
+    "message": "仅从匹配的响应中读取这些名称。值仅在当前浏览器会话期间保存在内存中，仅在匹配的请求上复用，并在浏览器重启、禁用配置文件或规则变更时清除。"
+  },
+  "addCapturedHeader": {
+    "message": "添加捕获标头"
+  },
+  "headerNameLabel": {
+    "message": "标头名称"
+  },
+  "headerValueLabel": {
+    "message": "标头值"
+  },
+  "sensitiveHeaderWarning": {
+    "message": "敏感标头：其值可能包含凭据。请使用测试凭据并限制目标源。"
+  },
+  "cookieHeaderWarning": {
+    "message": "敏感标头：覆盖 Cookie 可能与 Chrome 的 Cookie 存储和登录状态冲突。请限制目标源并使用测试数据。"
+  },
+  "blockedHeaderWarning": {
+    "message": "不可用：仅响应、请求目标、消息分帧、代理和连接类标头无法安全中继。"
+  },
+  "excludeDescription": {
+    "message": "目标源内的 glob 模式，匹配的路径将移除由模拟器管理的标头。"
+  },
+  "addPath": {
+    "message": "添加路径"
+  },
+  "excludedPathHelpTitle": {
+    "message": "Glob 匹配"
+  },
+  "excludedPathHelp": {
+    "message": "输入完整路径的 glob，例如 /assets/**。* 匹配单个路径段内的任意字符，** 可跨段匹配，? 匹配一个字符。模式必须匹配整个路径名，因此 /assets 只匹配 /assets——要匹配其下所有内容请使用 /assets/**。查询字符串和片段将被忽略，规则仅在目标源内生效。"
+  },
+  "excludedPathLabel": {
+    "message": "排除路径"
+  },
+  "excludedPathRequired": {
+    "message": "请输入路径。"
+  },
+  "excludedPathMustStartWithSlash": {
+    "message": "请输入以 / 开头的路径。"
+  },
+  "excludedPathUrlNotAllowed": {
+    "message": "请输入 /assets/** 这样的路径，而不是完整 URL。"
+  },
+  "excludedPathSingleLine": {
+    "message": "请在一行内输入路径。"
+  },
+  "excludedPathRootWarning": {
+    "message": "/** 将排除此配置文件目标源内的所有 URL。"
+  },
+  "excludedPathTesterTitle": {
+    "message": "排除路径测试器"
+  },
+  "excludedPathTesterDescription": {
+    "message": "用真实 URL 测试当前未保存的配置文件草稿。"
+  },
+  "excludedPathTesterOrigin": {
+    "message": "目标源"
+  },
+  "excludedPathTesterExcluded": {
+    "message": "已排除"
+  },
+  "excludedPathTesterMatched": {
+    "message": "匹配的模式"
+  },
+  "probeDescription": {
+    "message": "在访问之前检查 URL 是否匹配、是否被排除，以及将附加哪些请求标头。"
+  },
+  "runProbe": {
+    "message": "运行探测"
+  },
+  "testUrlLabel": {
+    "message": "要测试的 URL"
+  },
+  "probeUrlRequired": {
+    "message": "请输入 URL。"
+  },
+  "probeUrlInvalid": {
+    "message": "请输入有效的绝对 URL。"
+  },
+  "probeTestedUrl": {
+    "message": "测试的 URL"
+  },
+  "probeTestedUrlDesc": {
+    "message": "基于此草稿评估的规范化 URL。"
+  },
+  "probeAllowed": {
+    "message": "允许"
+  },
+  "probeAllowedDesc": {
+    "message": "“是”表示至少有一个已启用的配置文件会为此 URL 附加标头。"
+  },
+  "probeExcluded": {
+    "message": "已排除"
+  },
+  "probeAttach": {
+    "message": "附加"
+  },
+  "auditDescription": {
+    "message": "URL 匹配、标头捕获、会话变更和 DNR 规则同步的运行时历史。请求 URL 仅在当前浏览器会话期间保存在内存中，绝不会写入磁盘。"
+  },
+  "auditLevel": {
+    "message": "最低级别"
+  },
+  "auditLevelAll": {
+    "message": "全部"
+  },
+  "auditLevelInfoUp": {
+    "message": "info 及以上"
+  },
+  "auditLevelWarnUp": {
+    "message": "warn 及以上"
+  },
+  "auditLevelErrorOnly": {
+    "message": "仅 error"
+  },
+  "auditLevelBadgeDebug": {
+    "message": "调试"
+  },
+  "auditLevelBadgeInfo": {
+    "message": "信息"
+  },
+  "auditLevelBadgeWarn": {
+    "message": "警告"
+  },
+  "auditLevelBadgeError": {
+    "message": "错误"
+  },
+  "auditEventOriginMatched": {
+    "message": "源已匹配"
+  },
+  "auditEventHeadersCaptured": {
+    "message": "已捕获标头"
+  },
+  "auditEventSessionCleared": {
+    "message": "会话已清除"
+  },
+  "auditEventConfigCompiled": {
+    "message": "配置已编译"
+  },
+  "auditEventDnrRulesSynced": {
+    "message": "请求规则已同步"
+  },
+  "auditEventCookiesUpdated": {
+    "message": "Cookie 已更新"
+  },
+  "auditEventCookieParseFailed": {
+    "message": "Cookie 解析失败"
+  },
+  "auditEventError": {
+    "message": "错误"
+  },
+  "clearLogs": {
+    "message": "清除日志"
+  },
+  "noAuditLogs": {
+    "message": "暂无审计日志。"
+  },
+  "noAuditLogsAtLevel": {
+    "message": "没有此严重级别的日志。"
+  },
+  "auditFullUrl": {
+    "message": "完整 URL"
+  },
+  "auditMessage": {
+    "message": "消息"
+  },
+  "auditTab": {
+    "message": "标签页"
+  },
+  "auditRequest": {
+    "message": "请求"
+  },
+  "auditHeaders": {
+    "message": "标头"
+  },
+  "auditData": {
+    "message": "数据"
+  },
+  "advancedDescription": {
+    "message": "用于高级配置检查与恢复的 JSON 直接编辑器。"
+  },
+  "applyJson": {
+    "message": "应用 JSON"
+  },
+  "configJsonLabel": {
+    "message": "配置 JSON"
+  },
+  "exportConfig": {
+    "message": "导出配置"
+  },
+  "importConfig": {
+    "message": "导入配置"
+  },
+  "includeSecretValues": {
+    "message": "包含机密值"
+  },
+  "configReplaceConfirm": {
+    "message": "这将替换所有现有配置。是否继续？"
+  },
+  "configExported": {
+    "message": "配置已导出。"
+  },
+  "configImported": {
+    "message": "配置已导入。"
+  },
+  "compileErrorTitle": {
+    "message": "编译错误"
+  },
+  "compileWarningsTitle": {
+    "message": "编译警告"
+  },
+  "compileWarningNoTargetOrigins": {
+    "message": "配置文件“$1”没有已启用的目标源。"
+  },
+  "compileWarningNoHeaders": {
+    "message": "配置文件“$1”尚未附加任何标头。"
+  },
+  "compileWarningExcludedPathsRemoveHeaders": {
+    "message": "配置文件“$1”会在排除路径上移除自身中继的标头。"
+  },
+  "compileWarningCookieExclusion": {
+    "message": "$1 上不应用 Cookie 规则：排除路径（$2）无法保留浏览器自身的 Cookie，因此此源会原样发送该 Cookie。"
+  },
+  "compileErrorHeaderConflict": {
+    "message": "$2 上的标头“$1”由多个已启用的配置文件（$3）设置。请只保留一个启用。"
+  },
+  "compileErrorCookieConflict": {
+    "message": "$2 上的 Cookie“$1”由多个已启用的配置文件（$3）设置。请只保留一个启用。"
+  },
+  "runtimeStatusTitle": {
+    "message": "运行时状态"
+  },
+  "runtimeStatusDescription": {
+    "message": "所有已启用的配置文件当前在浏览器中的应用情况。"
+  },
+  "tileEnabledProfiles": {
+    "message": "已启用的配置文件"
+  },
+  "tileProfileDnrRules": {
+    "message": "此配置文件的 DNR 规则"
+  },
+  "tileCompileErrors": {
+    "message": "编译错误"
+  },
+  "tileCompileWarnings": {
+    "message": "编译警告"
+  },
+  "probeMatchedProfiles": {
+    "message": "匹配的配置文件"
+  },
+  "probeNoMatchedProfiles": {
+    "message": "没有已启用的配置文件匹配此 URL。"
+  },
+  "probeMatchedProfileCount": {
+    "message": "匹配的配置文件"
+  },
+  "probeMatchedProfileCountDesc": {
+    "message": "目标源匹配此 URL 的已启用配置文件。"
+  },
+  "probeEffectiveHeaders": {
+    "message": "生效标头"
+  },
+  "probeEffectiveHeadersDesc": {
+    "message": "在应用排除路径和冲突处理后实际附加到请求的标头名称。"
+  },
+  "probeCookieHeader": {
+    "message": "Cookie 标头"
+  },
+  "probeCookieHeaderDesc": {
+    "message": "发送到目标 URL 的最终 Cookie 标头值。`none` 表示 Chrome 生成的原始 Cookie 会原样通过。"
+  },
+  "probeCookieHeaderNone": {
+    "message": "none（保留 Chrome 的原始值）"
+  },
+  "popupEnabledProfiles": {
+    "message": "已启用的配置文件"
+  },
+  "popupProfiles": {
+    "message": "配置文件"
+  },
+  "popupNoProfiles": {
+    "message": "未配置配置文件"
+  },
+  "popupAllProfilesDisabled": {
+    "message": "没有已启用的配置文件"
+  },
+  "popupCapturedBy": {
+    "message": "由 $1 捕获"
+  },
+  "sectionCookies": {
+    "message": "Cookie"
+  },
+  "sectionMigration": {
+    "message": "迁移问题"
+  },
+  "cookiesDescription": {
+    "message": "附加到请求的 Cookie。固定 Cookie 始终应用;跟踪 Cookie 从 Set-Cookie 响应中捕获值。"
+  },
+  "addFixedCookie": {
+    "message": "添加固定 Cookie"
+  },
+  "addTrackedCookie": {
+    "message": "添加跟踪 Cookie"
+  },
+  "fixedCookiesTitle": {
+    "message": "固定 Cookie"
+  },
+  "trackedCookiesTitle": {
+    "message": "跟踪 Cookie"
+  },
+  "cookieNameLabel": {
+    "message": "Cookie 名称"
+  },
+  "cookieValueLabel": {
+    "message": "Cookie 值"
+  },
+  "trackedCookieValueLabel": {
+    "message": "已捕获的值"
+  },
+  "clearTrackedCookieAction": {
+    "message": "清除值"
+  },
+  "clearAllTrackedCookies": {
+    "message": "清除所有跟踪 Cookie"
+  },
+  "clearAllTrackedCookiesConfirm": {
+    "message": "要清除此配置文件中所有已跟踪的 Cookie 值吗？"
+  },
+  "noFixedCookies": {
+    "message": "未配置固定 Cookie。"
+  },
+  "noTrackedCookies": {
+    "message": "未配置跟踪 Cookie。"
+  },
+  "noTrackedCookieValue": {
+    "message": "尚未捕获"
+  },
+  "migrationIssuesDescription": {
+    "message": "无法自动迁移的旧 Cookie 头设置。在下方重新配置 Cookie 后请将其删除。"
+  },
+  "migrationIssueDismiss": {
+    "message": "删除"
+  },
+  "migrationIssueSourceFixed": {
+    "message": "固定标头“Cookie”"
+  },
+  "migrationIssueSourceCapture": {
+    "message": "已捕获标头“Cookie”"
+  },
+  "migrationIssueReasonPopupMismatch": {
+    "message": "无法重现弹出窗口的选择项。"
+  },
+  "migrationIssueReasonParseFail": {
+    "message": "无法解析 Cookie 值。"
+  },
+  "migrationIssueReasonDuplicate": {
+    "message": "多个头之间 Cookie 名称重复。"
+  },
+  "migrationIssueReasonCapture": {
+    "message": "捕获的 Cookie 头没有明确的目标名称。"
+  },
+  "migrationIssueOriginalHeaderLabel": {
+    "message": "原始值"
+  },
+  "noMigrationIssues": {
+    "message": "无迁移问题。"
+  },
+  "popupCookiesTitle": {
+    "message": "Cookie"
+  },
+  "popupCookieFixedLabel": {
+    "message": "固定"
+  },
+  "popupCookieTrackedLabel": {
+    "message": "跟踪"
+  },
+  "popupCookieNoValueYet": {
+    "message": "尚未捕获"
+  },
+  "popupCookieClearAll": {
+    "message": "清除跟踪 Cookie"
+  },
+  "popupCookieClearOne": {
+    "message": "清除"
+  },
+  "popupNoCookies": {
+    "message": "此页面无 Cookie。"
+  },
+  "popupNoMatchTitle": {
+    "message": "没有以此网站为目标的配置文件。"
+  },
+  "popupNoMatchHint": {
+    "message": "将此网站的源添加到配置文件后，即可在此处中继标头。"
+  },
+  "popupAddOrigin": {
+    "message": "添加此网站"
+  },
+  "popupUnsupportedPage": {
+    "message": "Header Relay 仅适用于 http 和 https 页面。"
+  },
+  "runtimeStaleRules": {
+    "message": "无法更新扩展规则。上一版规则集仍在使用中 — 刷新可能可以解决。"
+  },
+  "runtimeStaleFailedRules": {
+    "message": "警告:DNR 更新和 remove-only 重试都失败。可能仍会发送过时的规则。"
+  },
+  "rateOnStore": {
+    "message": "在 Chrome 应用商店评价"
+  },
+  "reviewPromptAskTitle": {
+    "message": "Header Relay 好用吗?"
+  },
+  "reviewPromptYes": {
+    "message": "好用"
+  },
+  "reviewPromptNo": {
+    "message": "还不够"
+  },
+  "reviewPromptLater": {
+    "message": "以后再说"
+  },
+  "reviewPromptRateBody": {
+    "message": "在应用商店留下评价,能帮助更多开发者找到它。"
+  },
+  "reviewPromptRateAction": {
+    "message": "撰写评价"
+  },
+  "reviewPromptFeedbackBody": {
+    "message": "请告诉我们缺少什么,以便改进。"
+  },
+  "reviewPromptFeedbackAction": {
+    "message": "发送反馈"
+  },
+  "reviewPromptClose": {
+    "message": "关闭"
+  }
+}

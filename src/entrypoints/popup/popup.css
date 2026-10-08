@@ -1,0 +1,8 @@
+/*
+ * Chromium issue 541684116 expands action popups to 800px wide when their
+ * content exceeds 600px in height: https://issues.chromium.org/issues/541684116
+ */
+.popup-root {
+  max-height: 599px;
+  overflow-y: auto;
+}

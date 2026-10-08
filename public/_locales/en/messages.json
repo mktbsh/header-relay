@@ -1,0 +1,794 @@
+{
+  "extName": {
+    "message": "Header Relay — HTTP Request Header Modifier & Response Header Capture"
+  },
+  "extDescription": {
+    "message": "Capture HTTP response headers and relay fixed or captured headers to matching browser requests."
+  },
+  "commandToggleAllProfiles": {
+    "message": "Toggle all profiles"
+  },
+  "enabled": {
+    "message": "Enabled"
+  },
+  "disabled": {
+    "message": "Disabled"
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "refresh": {
+    "message": "Refresh"
+  },
+  "yes": {
+    "message": "yes"
+  },
+  "no": {
+    "message": "no"
+  },
+  "loading": {
+    "message": "Loading..."
+  },
+  "popupRefreshStatus": {
+    "message": "Refresh status"
+  },
+  "popupSettings": {
+    "message": "Settings"
+  },
+  "popupToggleProfile": {
+    "message": "Toggle profile"
+  },
+  "popupToggleHeader": {
+    "message": "Toggle fixed header"
+  },
+  "dnrSyncError": {
+    "message": "DNR sync error"
+  },
+  "popupFixedHeaders": {
+    "message": "Fixed Headers"
+  },
+  "popupNoFixedHeaders": {
+    "message": "No fixed headers configured"
+  },
+  "popupThisPage": {
+    "message": "This Page"
+  },
+  "popupNoEditableHeaders": {
+    "message": "No headers are editable for this page"
+  },
+  "popupCustomValue": {
+    "message": "Custom: $1"
+  },
+  "popupExposureShow": {
+    "message": "Show in Popup"
+  },
+  "popupExposureInputType": {
+    "message": "Input type"
+  },
+  "popupExposureInputText": {
+    "message": "Text"
+  },
+  "popupExposureInputSelect": {
+    "message": "Select"
+  },
+  "popupExposureOptionLabel": {
+    "message": "Label"
+  },
+  "popupExposureOptionValue": {
+    "message": "Value"
+  },
+  "popupExposureAddOption": {
+    "message": "Add Option"
+  },
+  "popupExposureMoveUp": {
+    "message": "Move option up"
+  },
+  "popupExposureMoveDown": {
+    "message": "Move option down"
+  },
+  "popupCapturedHeaders": {
+    "message": "Captured Headers"
+  },
+  "popupEnableProfileHint": {
+    "message": "Enable the profile to attach headers"
+  },
+  "popupNoCapturedValues": {
+    "message": "No captured values"
+  },
+  "popupClearCapturedValues": {
+    "message": "Clear Captured Values"
+  },
+  "privacyPolicy": {
+    "message": "Privacy Policy"
+  },
+  "popupCreateProfileHint": {
+    "message": "Create a profile in Profile management to start relaying headers."
+  },
+  "popupOpenSettings": {
+    "message": "Open Profile Management"
+  },
+  "statusCaptured": {
+    "message": "Captured"
+  },
+  "statusWaiting": {
+    "message": "Waiting"
+  },
+  "timeJustNow": {
+    "message": "just now"
+  },
+  "timeMinutesAgo": {
+    "message": "$1m ago"
+  },
+  "timeHoursAgo": {
+    "message": "$1h ago"
+  },
+  "timeDaysAgo": {
+    "message": "$1d ago"
+  },
+  "manageReload": {
+    "message": "Reload"
+  },
+  "manageReloadConfirm": {
+    "message": "Discard unsaved changes and reload?"
+  },
+  "dismissMessage": {
+    "message": "Close"
+  },
+  "unsavedChanges": {
+    "message": "Unsaved changes"
+  },
+  "manageSaving": {
+    "message": "Saving..."
+  },
+  "manageSave": {
+    "message": "Save"
+  },
+  "manageSavedNotice": {
+    "message": "Saved and applied."
+  },
+  "manageCapturedCleared": {
+    "message": "Captured values cleared."
+  },
+  "manageLogsCleared": {
+    "message": "Audit logs cleared."
+  },
+  "profileNameRequired": {
+    "message": "Profile name is required."
+  },
+  "profileNameDuplicate": {
+    "message": "A profile with this name already exists."
+  },
+  "profileSettingsTitle": {
+    "message": "Profile settings"
+  },
+  "profileSettingsDescription": {
+    "message": "Rename, duplicate, or delete the selected profile."
+  },
+  "profileEnabledLabel": {
+    "message": "Profile enabled"
+  },
+  "profileEnabledDescription": {
+    "message": "Disabled profiles do not capture or attach headers. Disabling a profile also clears its captured values."
+  },
+  "profileLabel": {
+    "message": "Profile"
+  },
+  "profilesLabel": {
+    "message": "Profiles"
+  },
+  "profileNameLabel": {
+    "message": "Profile name"
+  },
+  "newProfile": {
+    "message": "New"
+  },
+  "createProfileTitle": {
+    "message": "Create profile"
+  },
+  "createProfile": {
+    "message": "Create"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "deleteProfile": {
+    "message": "Delete profile"
+  },
+  "duplicateProfile": {
+    "message": "Duplicate profile"
+  },
+  "profileDuplicated": {
+    "message": "Profile duplicated."
+  },
+  "moveProfileUp": {
+    "message": "Move $1 up"
+  },
+  "moveProfileDown": {
+    "message": "Move $1 down"
+  },
+  "profileDeleteConfirm": {
+    "message": "Delete profile \"$1\"? Its captured values will also be removed."
+  },
+  "compactMode": {
+    "message": "Compact"
+  },
+  "settingsTitle": {
+    "message": "Settings"
+  },
+  "settingsGeneralTab": {
+    "message": "General"
+  },
+  "settingsDescription": {
+    "message": "Configure settings shared by every Header Relay screen."
+  },
+  "settingsAppearance": {
+    "message": "Appearance"
+  },
+  "settingsCompactDescription": {
+    "message": "Use denser spacing and smaller controls throughout the extension."
+  },
+  "settingsPrivacy": {
+    "message": "Privacy"
+  },
+  "settingsPrivacyDescription": {
+    "message": "Review how Header Relay handles configuration, captured values, and audit logs."
+  },
+  "homepage": {
+    "message": "Homepage"
+  },
+  "buyMeACoffee": {
+    "message": "Buy Me a Coffee"
+  },
+  "sectionOverview": {
+    "message": "Overview"
+  },
+  "sectionOrigins": {
+    "message": "Target Origins"
+  },
+  "targetOriginLabel": {
+    "message": "Target origin"
+  },
+  "sectionHeaders": {
+    "message": "Headers"
+  },
+  "sectionFixed": {
+    "message": "Fixed Headers"
+  },
+  "sectionCapture": {
+    "message": "Captured Headers"
+  },
+  "sectionExclude": {
+    "message": "Excluded Paths"
+  },
+  "sectionProbe": {
+    "message": "URL Probe"
+  },
+  "sectionLogs": {
+    "message": "Audit Logs"
+  },
+  "sectionAdvanced": {
+    "message": "Advanced Settings"
+  },
+  "advancedSettingsDescription": {
+    "message": "Run URL probes, review audit activity, or edit the complete configuration JSON."
+  },
+  "advancedJsonEditorTab": {
+    "message": "JSON Editor"
+  },
+  "tileTargetOrigins": {
+    "message": "Target origins"
+  },
+  "tileFixedHeadersSummary": {
+    "message": "Configured / active fixed headers"
+  },
+  "tileCapturedValues": {
+    "message": "Captured values"
+  },
+  "tileDnrSessionRules": {
+    "message": "DNR session rules"
+  },
+  "activeHeadersTitle": {
+    "message": "Headers active for matching requests"
+  },
+  "activeHeadersDescription": {
+    "message": "Headers that will be attached when this profile matches the request URL."
+  },
+  "noActiveHeaders": {
+    "message": "No request headers are active."
+  },
+  "capturedPanelTitle": {
+    "message": "Captured values"
+  },
+  "capturedPanelDescription": {
+    "message": "Latest response header values stored in the current extension session."
+  },
+  "noCapturedValues": {
+    "message": "No captured values."
+  },
+  "copyCapturedValue": {
+    "message": "Copy"
+  },
+  "copiedCapturedValue": {
+    "message": "Copied"
+  },
+  "sessionValuesTitle": {
+    "message": "Current session values"
+  },
+  "clearCapturedValues": {
+    "message": "Clear captured values"
+  },
+  "clearCapturedValuesDescription": {
+    "message": "Clear removes current captured values but keeps this profile and its header settings. Disabling the profile also clears these values."
+  },
+  "originsDescription": {
+    "message": "Origins where header emulation is allowed. Requests outside these origins are ignored."
+  },
+  "originAccessGranted": {
+    "message": "Access granted"
+  },
+  "originAccessRequired": {
+    "message": "Access required"
+  },
+  "originUnsupported": {
+    "message": "Unsupported origin"
+  },
+  "originGrantAccess": {
+    "message": "Allow access"
+  },
+  "originsPermissionNote": {
+    "message": "Saving requests host access for the origins you added. Access covers every port on that host, is used only for this extension's header relay, and can be revoked anytime from Chrome's extension settings."
+  },
+  "revokeOrphanedConfirm": {
+    "message": "These host permissions are no longer used by any profile:\n$1\nRevoke them now?"
+  },
+  "popupAccessRequired": {
+    "message": "Host access is required for:"
+  },
+  "addOrigin": {
+    "message": "Add origin"
+  },
+  "fixedDescription": {
+    "message": "Names and values are stored in extension-local settings until you remove them. Enabled values are attached only to matching requests and are not sent elsewhere."
+  },
+  "addFixedHeader": {
+    "message": "Add fixed header"
+  },
+  "captureDescription": {
+    "message": "Only these names are read from matching responses. Values stay in memory for the current browser session, are reused only on matching requests, and are cleared on browser restart, profile disable, or rule changes."
+  },
+  "addCapturedHeader": {
+    "message": "Add captured header"
+  },
+  "headerNameLabel": {
+    "message": "Header name"
+  },
+  "headerValueLabel": {
+    "message": "Header value"
+  },
+  "sensitiveHeaderWarning": {
+    "message": "Sensitive header: its value may contain credentials. Use test credentials and limit Target Origins."
+  },
+  "cookieHeaderWarning": {
+    "message": "Sensitive header: overriding Cookie can conflict with Chrome's cookie store and authentication state. Limit Target Origins and use test data."
+  },
+  "blockedHeaderWarning": {
+    "message": "Unavailable: response-only, request authority, message framing, proxy, and connection headers cannot be relayed safely."
+  },
+  "excludeDescription": {
+    "message": "Glob patterns inside target origins where emulator-managed headers are removed."
+  },
+  "addPath": {
+    "message": "Add path"
+  },
+  "excludedPathHelpTitle": {
+    "message": "Glob matching"
+  },
+  "excludedPathHelp": {
+    "message": "Enter a whole-path glob such as /assets/**. Use * within a single path segment, ** across segments, and ? for one character. The pattern must match the entire pathname, so /assets matches only /assets — use /assets/** for everything beneath it. Query strings and fragments are ignored, and rules apply only inside target origins."
+  },
+  "excludedPathLabel": {
+    "message": "Excluded path"
+  },
+  "excludedPathRequired": {
+    "message": "Enter a path."
+  },
+  "excludedPathMustStartWithSlash": {
+    "message": "Enter a path that starts with /."
+  },
+  "excludedPathUrlNotAllowed": {
+    "message": "Enter a path such as /assets/**, not a full URL."
+  },
+  "excludedPathSingleLine": {
+    "message": "Enter the path on one line."
+  },
+  "excludedPathRootWarning": {
+    "message": "/** excludes every URL inside this profile's target origins."
+  },
+  "excludedPathTesterTitle": {
+    "message": "Excluded-path tester"
+  },
+  "excludedPathTesterDescription": {
+    "message": "Test a real URL against the current unsaved profile draft."
+  },
+  "excludedPathTesterOrigin": {
+    "message": "Target origin"
+  },
+  "excludedPathTesterExcluded": {
+    "message": "Excluded"
+  },
+  "excludedPathTesterMatched": {
+    "message": "Matched pattern"
+  },
+  "probeDescription": {
+    "message": "Check whether a URL is matched, excluded, and which request headers would be attached before visiting it."
+  },
+  "runProbe": {
+    "message": "Run probe"
+  },
+  "testUrlLabel": {
+    "message": "URL to test"
+  },
+  "probeUrlRequired": {
+    "message": "Enter a URL."
+  },
+  "probeUrlInvalid": {
+    "message": "Enter a valid absolute URL."
+  },
+  "probeTestedUrl": {
+    "message": "Tested URL"
+  },
+  "probeTestedUrlDesc": {
+    "message": "The normalized URL evaluated from this draft."
+  },
+  "probeAllowed": {
+    "message": "Allowed"
+  },
+  "probeAllowedDesc": {
+    "message": "Yes means at least one enabled profile attaches a header to this URL."
+  },
+  "probeExcluded": {
+    "message": "Excluded"
+  },
+  "probeAttach": {
+    "message": "Attach"
+  },
+  "auditDescription": {
+    "message": "Runtime history for URL matches, header capture, session changes, and DNR rule sync. Request URLs are kept in memory only for the current browser session and are never saved to disk."
+  },
+  "auditLevel": {
+    "message": "Minimum level"
+  },
+  "auditLevelAll": {
+    "message": "All"
+  },
+  "auditLevelInfoUp": {
+    "message": "Info and above"
+  },
+  "auditLevelWarnUp": {
+    "message": "Warn and above"
+  },
+  "auditLevelErrorOnly": {
+    "message": "Error only"
+  },
+  "auditLevelBadgeDebug": {
+    "message": "Debug"
+  },
+  "auditLevelBadgeInfo": {
+    "message": "Info"
+  },
+  "auditLevelBadgeWarn": {
+    "message": "Warning"
+  },
+  "auditLevelBadgeError": {
+    "message": "Error"
+  },
+  "auditEventOriginMatched": {
+    "message": "Origin matched"
+  },
+  "auditEventHeadersCaptured": {
+    "message": "Headers captured"
+  },
+  "auditEventSessionCleared": {
+    "message": "Session cleared"
+  },
+  "auditEventConfigCompiled": {
+    "message": "Configuration compiled"
+  },
+  "auditEventDnrRulesSynced": {
+    "message": "Request rules synced"
+  },
+  "auditEventCookiesUpdated": {
+    "message": "Cookies updated"
+  },
+  "auditEventCookieParseFailed": {
+    "message": "Cookie parse failed"
+  },
+  "auditEventError": {
+    "message": "Error"
+  },
+  "clearLogs": {
+    "message": "Clear logs"
+  },
+  "noAuditLogs": {
+    "message": "No audit logs."
+  },
+  "noAuditLogsAtLevel": {
+    "message": "No logs at this level."
+  },
+  "auditFullUrl": {
+    "message": "Full URL"
+  },
+  "auditMessage": {
+    "message": "Message"
+  },
+  "auditTab": {
+    "message": "Tab"
+  },
+  "auditRequest": {
+    "message": "Request"
+  },
+  "auditHeaders": {
+    "message": "Headers"
+  },
+  "auditData": {
+    "message": "Data"
+  },
+  "advancedDescription": {
+    "message": "Direct JSON editor for advanced config inspection and recovery."
+  },
+  "applyJson": {
+    "message": "Apply JSON"
+  },
+  "configJsonLabel": {
+    "message": "Configuration JSON"
+  },
+  "exportConfig": {
+    "message": "Export configuration"
+  },
+  "importConfig": {
+    "message": "Import configuration"
+  },
+  "includeSecretValues": {
+    "message": "Include secret values"
+  },
+  "configReplaceConfirm": {
+    "message": "This will replace the entire existing configuration. Continue?"
+  },
+  "configExported": {
+    "message": "Configuration exported."
+  },
+  "configImported": {
+    "message": "Configuration imported."
+  },
+  "compileErrorTitle": {
+    "message": "Compile error"
+  },
+  "compileWarningsTitle": {
+    "message": "Compile warnings"
+  },
+  "compileWarningNoTargetOrigins": {
+    "message": "Profile \"$1\" has no enabled target origin."
+  },
+  "compileWarningNoHeaders": {
+    "message": "Profile \"$1\" attaches no headers yet."
+  },
+  "compileWarningExcludedPathsRemoveHeaders": {
+    "message": "Profile \"$1\" removes its own relay-managed headers on excluded paths."
+  },
+  "compileWarningCookieExclusion": {
+    "message": "Cookie rules are skipped on $1: the excluded paths ($2) cannot keep the browser's own Cookie, so it is sent unchanged on this origin."
+  },
+  "compileErrorHeaderConflict": {
+    "message": "Header \"$1\" on $2 is set by more than one enabled profile ($3). Disable all but one."
+  },
+  "compileErrorCookieConflict": {
+    "message": "Cookie \"$1\" on $2 is set by more than one enabled profile ($3). Disable all but one."
+  },
+  "runtimeStatusTitle": {
+    "message": "Runtime status"
+  },
+  "runtimeStatusDescription": {
+    "message": "How all enabled profiles are currently applied in the browser."
+  },
+  "tileEnabledProfiles": {
+    "message": "Enabled profiles"
+  },
+  "tileProfileDnrRules": {
+    "message": "This profile's DNR rules"
+  },
+  "tileCompileErrors": {
+    "message": "Compile errors"
+  },
+  "tileCompileWarnings": {
+    "message": "Compile warnings"
+  },
+  "probeMatchedProfiles": {
+    "message": "Matched profiles"
+  },
+  "probeNoMatchedProfiles": {
+    "message": "No enabled profile matches this URL."
+  },
+  "probeMatchedProfileCount": {
+    "message": "Matched profiles"
+  },
+  "probeMatchedProfileCountDesc": {
+    "message": "Enabled profiles whose target origin matches this URL."
+  },
+  "probeEffectiveHeaders": {
+    "message": "Effective headers"
+  },
+  "probeEffectiveHeadersDesc": {
+    "message": "Header names actually attached to the request after excluded paths and conflicts."
+  },
+  "probeCookieHeader": {
+    "message": "Cookie header"
+  },
+  "probeCookieHeaderDesc": {
+    "message": "The final Cookie header value sent to the target URL, or `none` when Chrome's original Cookie passes through unchanged."
+  },
+  "probeCookieHeaderNone": {
+    "message": "none (Chrome's original passes through)"
+  },
+  "popupEnabledProfiles": {
+    "message": "Enabled profiles"
+  },
+  "popupProfiles": {
+    "message": "Profiles"
+  },
+  "popupNoProfiles": {
+    "message": "No profile configured"
+  },
+  "popupAllProfilesDisabled": {
+    "message": "No profile is enabled"
+  },
+  "popupCapturedBy": {
+    "message": "Captured by $1"
+  },
+  "sectionCookies": {
+    "message": "Cookies"
+  },
+  "sectionMigration": {
+    "message": "Migration Issues"
+  },
+  "cookiesDescription": {
+    "message": "Cookies to attach to requests. Fixed cookies always apply; tracked cookies capture values from Set-Cookie responses."
+  },
+  "addFixedCookie": {
+    "message": "Add fixed cookie"
+  },
+  "addTrackedCookie": {
+    "message": "Add tracked cookie"
+  },
+  "fixedCookiesTitle": {
+    "message": "Fixed Cookies"
+  },
+  "trackedCookiesTitle": {
+    "message": "Tracked Cookies"
+  },
+  "cookieNameLabel": {
+    "message": "Cookie name"
+  },
+  "cookieValueLabel": {
+    "message": "Cookie value"
+  },
+  "trackedCookieValueLabel": {
+    "message": "Captured value"
+  },
+  "clearTrackedCookieAction": {
+    "message": "Clear value"
+  },
+  "clearAllTrackedCookies": {
+    "message": "Clear all tracked cookies"
+  },
+  "clearAllTrackedCookiesConfirm": {
+    "message": "Clear every tracked cookie value for this profile?"
+  },
+  "noFixedCookies": {
+    "message": "No fixed cookies configured."
+  },
+  "noTrackedCookies": {
+    "message": "No tracked cookies configured."
+  },
+  "noTrackedCookieValue": {
+    "message": "not captured yet"
+  },
+  "migrationIssuesDescription": {
+    "message": "Legacy Cookie header settings that could not be migrated automatically. Delete them once you have reconfigured cookies below."
+  },
+  "migrationIssueDismiss": {
+    "message": "Delete"
+  },
+  "migrationIssueSourceFixed": {
+    "message": "Fixed Header “Cookie”"
+  },
+  "migrationIssueSourceCapture": {
+    "message": "Captured Header “Cookie”"
+  },
+  "migrationIssueReasonPopupMismatch": {
+    "message": "Popup select options could not be reproduced."
+  },
+  "migrationIssueReasonParseFail": {
+    "message": "Cookie value could not be parsed."
+  },
+  "migrationIssueReasonDuplicate": {
+    "message": "Duplicate cookie name across headers."
+  },
+  "migrationIssueReasonCapture": {
+    "message": "A captured Cookie header has no unambiguous target name."
+  },
+  "migrationIssueOriginalHeaderLabel": {
+    "message": "Original value"
+  },
+  "noMigrationIssues": {
+    "message": "No migration issues."
+  },
+  "popupCookiesTitle": {
+    "message": "Cookies"
+  },
+  "popupCookieFixedLabel": {
+    "message": "Fixed"
+  },
+  "popupCookieTrackedLabel": {
+    "message": "Tracked"
+  },
+  "popupCookieNoValueYet": {
+    "message": "not captured yet"
+  },
+  "popupCookieClearAll": {
+    "message": "Clear tracked cookies"
+  },
+  "popupCookieClearOne": {
+    "message": "Clear"
+  },
+  "popupNoCookies": {
+    "message": "No cookies for this page."
+  },
+  "popupNoMatchTitle": {
+    "message": "No profile targets this site."
+  },
+  "popupNoMatchHint": {
+    "message": "Add this site's origin to a profile to relay headers here."
+  },
+  "popupAddOrigin": {
+    "message": "Add this site"
+  },
+  "popupUnsupportedPage": {
+    "message": "Header Relay applies only to http and https pages."
+  },
+  "runtimeStaleRules": {
+    "message": "Extension rules could not update. Previous ruleset is still active — refresh may fix this."
+  },
+  "runtimeStaleFailedRules": {
+    "message": "Warning: DNR update AND remove-only retry both failed. Stale rules may still be sent."
+  },
+  "rateOnStore": {
+    "message": "Rate on the Chrome Web Store"
+  },
+  "reviewPromptAskTitle": {
+    "message": "Is Header Relay working for you?"
+  },
+  "reviewPromptYes": {
+    "message": "Yes"
+  },
+  "reviewPromptNo": {
+    "message": "Not really"
+  },
+  "reviewPromptLater": {
+    "message": "Later"
+  },
+  "reviewPromptRateBody": {
+    "message": "A review on the Chrome Web Store helps other developers find it."
+  },
+  "reviewPromptRateAction": {
+    "message": "Write a review"
+  },
+  "reviewPromptFeedbackBody": {
+    "message": "Tell us what is missing so it can be fixed."
+  },
+  "reviewPromptFeedbackAction": {
+    "message": "Send feedback"
+  },
+  "reviewPromptClose": {
+    "message": "Close"
+  }
+}

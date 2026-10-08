@@ -1,0 +1,794 @@
+{
+  "extName": {
+    "message": "Header Relay — Anfrage-Header ändern und Antwort-Header erfassen"
+  },
+  "extDescription": {
+    "message": "Erfasst HTTP-Antwort-Header und überträgt feste oder erfasste Header an passende Browser-Anfragen."
+  },
+  "commandToggleAllProfiles": {
+    "message": "Alle Profile umschalten"
+  },
+  "enabled": {
+    "message": "Aktiviert"
+  },
+  "disabled": {
+    "message": "Deaktiviert"
+  },
+  "remove": {
+    "message": "Entfernen"
+  },
+  "refresh": {
+    "message": "Aktualisieren"
+  },
+  "yes": {
+    "message": "ja"
+  },
+  "no": {
+    "message": "nein"
+  },
+  "loading": {
+    "message": "Wird geladen..."
+  },
+  "popupRefreshStatus": {
+    "message": "Status aktualisieren"
+  },
+  "popupSettings": {
+    "message": "Einstellungen"
+  },
+  "popupToggleProfile": {
+    "message": "Profil umschalten"
+  },
+  "popupToggleHeader": {
+    "message": "Fixierten Header umschalten"
+  },
+  "dnrSyncError": {
+    "message": "DNR-Synchronisierungsfehler"
+  },
+  "popupFixedHeaders": {
+    "message": "Feste Header"
+  },
+  "popupNoFixedHeaders": {
+    "message": "Keine festen Header konfiguriert"
+  },
+  "popupThisPage": {
+    "message": "Diese Seite"
+  },
+  "popupNoEditableHeaders": {
+    "message": "Keine bearbeitbaren Header für diese Seite"
+  },
+  "popupCustomValue": {
+    "message": "Benutzerdefiniert: $1"
+  },
+  "popupExposureShow": {
+    "message": "Im Popup anzeigen"
+  },
+  "popupExposureInputType": {
+    "message": "Eingabetyp"
+  },
+  "popupExposureInputText": {
+    "message": "Text"
+  },
+  "popupExposureInputSelect": {
+    "message": "Auswahl"
+  },
+  "popupExposureOptionLabel": {
+    "message": "Beschriftung"
+  },
+  "popupExposureOptionValue": {
+    "message": "Wert"
+  },
+  "popupExposureAddOption": {
+    "message": "Option hinzufügen"
+  },
+  "popupExposureMoveUp": {
+    "message": "Option nach oben verschieben"
+  },
+  "popupExposureMoveDown": {
+    "message": "Option nach unten verschieben"
+  },
+  "popupCapturedHeaders": {
+    "message": "Erfasste Header"
+  },
+  "popupEnableProfileHint": {
+    "message": "Aktivieren Sie das Profil, um Header anzuhängen"
+  },
+  "popupNoCapturedValues": {
+    "message": "Keine erfassten Werte"
+  },
+  "popupClearCapturedValues": {
+    "message": "Erfasste Werte löschen"
+  },
+  "privacyPolicy": {
+    "message": "Datenschutzerklärung"
+  },
+  "popupCreateProfileHint": {
+    "message": "Erstellen Sie in der Profilverwaltung ein Profil, um Header weiterzuleiten."
+  },
+  "popupOpenSettings": {
+    "message": "Profilverwaltung öffnen"
+  },
+  "statusCaptured": {
+    "message": "Erfasst"
+  },
+  "statusWaiting": {
+    "message": "Wartend"
+  },
+  "timeJustNow": {
+    "message": "gerade eben"
+  },
+  "timeMinutesAgo": {
+    "message": "vor $1 Min."
+  },
+  "timeHoursAgo": {
+    "message": "vor $1 Std."
+  },
+  "timeDaysAgo": {
+    "message": "vor $1 T."
+  },
+  "manageReload": {
+    "message": "Neu laden"
+  },
+  "manageReloadConfirm": {
+    "message": "Nicht gespeicherte Änderungen verwerfen und neu laden?"
+  },
+  "dismissMessage": {
+    "message": "Schließen"
+  },
+  "unsavedChanges": {
+    "message": "Nicht gespeicherte Änderungen"
+  },
+  "manageSaving": {
+    "message": "Wird gespeichert..."
+  },
+  "manageSave": {
+    "message": "Speichern"
+  },
+  "manageSavedNotice": {
+    "message": "Gespeichert und angewendet."
+  },
+  "manageCapturedCleared": {
+    "message": "Erfasste Werte gelöscht."
+  },
+  "manageLogsCleared": {
+    "message": "Audit-Protokolle gelöscht."
+  },
+  "profileNameRequired": {
+    "message": "Profilname ist erforderlich."
+  },
+  "profileNameDuplicate": {
+    "message": "Ein Profil mit diesem Namen ist bereits vorhanden."
+  },
+  "profileSettingsTitle": {
+    "message": "Profileinstellungen"
+  },
+  "profileSettingsDescription": {
+    "message": "Benennen Sie das ausgewählte Profil um, duplizieren oder löschen Sie es."
+  },
+  "profileEnabledLabel": {
+    "message": "Profil aktiviert"
+  },
+  "profileEnabledDescription": {
+    "message": "Deaktivierte Profile erfassen keine Header und hängen keine an. Beim Deaktivieren eines Profils werden auch seine erfassten Werte gelöscht."
+  },
+  "profileLabel": {
+    "message": "Profil"
+  },
+  "profilesLabel": {
+    "message": "Profile"
+  },
+  "profileNameLabel": {
+    "message": "Profilname"
+  },
+  "newProfile": {
+    "message": "Neu"
+  },
+  "createProfileTitle": {
+    "message": "Profil erstellen"
+  },
+  "createProfile": {
+    "message": "Erstellen"
+  },
+  "cancel": {
+    "message": "Abbrechen"
+  },
+  "deleteProfile": {
+    "message": "Profil löschen"
+  },
+  "duplicateProfile": {
+    "message": "Profil duplizieren"
+  },
+  "profileDuplicated": {
+    "message": "Profil dupliziert."
+  },
+  "moveProfileUp": {
+    "message": "$1 nach oben verschieben"
+  },
+  "moveProfileDown": {
+    "message": "$1 nach unten verschieben"
+  },
+  "profileDeleteConfirm": {
+    "message": "Profil „$1“ löschen? Seine erfassten Werte werden ebenfalls entfernt."
+  },
+  "compactMode": {
+    "message": "Kompakt"
+  },
+  "settingsTitle": {
+    "message": "Einstellungen"
+  },
+  "settingsGeneralTab": {
+    "message": "Allgemein"
+  },
+  "settingsDescription": {
+    "message": "Einstellungen konfigurieren, die alle Header-Relay-Bildschirme gemeinsam nutzen."
+  },
+  "settingsAppearance": {
+    "message": "Darstellung"
+  },
+  "settingsCompactDescription": {
+    "message": "Dichtere Abstände und kleinere Bedienelemente in der gesamten Erweiterung verwenden."
+  },
+  "settingsPrivacy": {
+    "message": "Datenschutz"
+  },
+  "settingsPrivacyDescription": {
+    "message": "Erfahren Sie, wie Header Relay Konfiguration, erfasste Werte und Audit-Protokolle verarbeitet."
+  },
+  "homepage": {
+    "message": "Website"
+  },
+  "buyMeACoffee": {
+    "message": "Buy Me a Coffee"
+  },
+  "sectionOverview": {
+    "message": "Übersicht"
+  },
+  "sectionOrigins": {
+    "message": "Ziel-Origins"
+  },
+  "targetOriginLabel": {
+    "message": "Ziel-Origin"
+  },
+  "sectionHeaders": {
+    "message": "Header"
+  },
+  "sectionFixed": {
+    "message": "Feste Header"
+  },
+  "sectionCapture": {
+    "message": "Erfasste Header"
+  },
+  "sectionExclude": {
+    "message": "Ausgeschlossene Pfade"
+  },
+  "sectionProbe": {
+    "message": "URL-Prüfung"
+  },
+  "sectionLogs": {
+    "message": "Audit-Protokolle"
+  },
+  "sectionAdvanced": {
+    "message": "Erweiterte Einstellungen"
+  },
+  "advancedSettingsDescription": {
+    "message": "Führe URL-Probes aus, prüfe das Audit-Protokoll oder bearbeite die vollständige Konfigurations-JSON."
+  },
+  "advancedJsonEditorTab": {
+    "message": "JSON-Editor"
+  },
+  "tileTargetOrigins": {
+    "message": "Ziel-Origins"
+  },
+  "tileFixedHeadersSummary": {
+    "message": "Konfigurierte / aktive feste Header"
+  },
+  "tileCapturedValues": {
+    "message": "Erfasste Werte"
+  },
+  "tileDnrSessionRules": {
+    "message": "DNR-Sitzungsregeln"
+  },
+  "activeHeadersTitle": {
+    "message": "Aktive Header für passende Anfragen"
+  },
+  "activeHeadersDescription": {
+    "message": "Header, die angehängt werden, wenn dieses Profil zur Anfrage-URL passt."
+  },
+  "noActiveHeaders": {
+    "message": "Keine Anfrage-Header aktiv."
+  },
+  "capturedPanelTitle": {
+    "message": "Erfasste Werte"
+  },
+  "capturedPanelDescription": {
+    "message": "Neueste Antwort-Header-Werte, gespeichert in der aktuellen Erweiterungssitzung."
+  },
+  "noCapturedValues": {
+    "message": "Keine erfassten Werte."
+  },
+  "copyCapturedValue": {
+    "message": "Kopieren"
+  },
+  "copiedCapturedValue": {
+    "message": "Kopiert"
+  },
+  "sessionValuesTitle": {
+    "message": "Werte der aktuellen Sitzung"
+  },
+  "clearCapturedValues": {
+    "message": "Erfasste Werte löschen"
+  },
+  "clearCapturedValuesDescription": {
+    "message": "Löschen entfernt die aktuell erfassten Werte, behält aber dieses Profil und seine Header-Einstellungen. Beim Deaktivieren des Profils werden diese Werte ebenfalls gelöscht."
+  },
+  "originsDescription": {
+    "message": "Origins, in denen Header-Emulation erlaubt ist. Anfragen außerhalb dieser Origins werden ignoriert."
+  },
+  "originAccessGranted": {
+    "message": "Zugriff gewährt"
+  },
+  "originAccessRequired": {
+    "message": "Zugriff erforderlich"
+  },
+  "originUnsupported": {
+    "message": "Nicht unterstützter Origin"
+  },
+  "originGrantAccess": {
+    "message": "Zugriff erlauben"
+  },
+  "originsPermissionNote": {
+    "message": "Beim Speichern wird Host-Zugriff für die hinzugefügten Origins angefordert. Der Zugriff gilt für alle Ports dieses Hosts, wird nur für die Header-Weiterleitung dieser Erweiterung verwendet und kann jederzeit in Chromes Erweiterungseinstellungen widerrufen werden."
+  },
+  "revokeOrphanedConfirm": {
+    "message": "Diese Host-Berechtigungen werden von keinem Profil mehr verwendet:\n$1\nJetzt widerrufen?"
+  },
+  "popupAccessRequired": {
+    "message": "Host-Zugriff ist erforderlich für:"
+  },
+  "addOrigin": {
+    "message": "Origin hinzufügen"
+  },
+  "fixedDescription": {
+    "message": "Namen und Werte werden in den lokalen Einstellungen der Erweiterung gespeichert, bis Sie sie entfernen. Aktivierte Werte werden nur an passende Anfragen angehängt und nirgendwo anders hingesendet."
+  },
+  "addFixedHeader": {
+    "message": "Festen Header hinzufügen"
+  },
+  "captureDescription": {
+    "message": "Nur diese Namen werden aus passenden Antworten gelesen. Werte bleiben für die aktuelle Browsersitzung im Speicher, werden nur bei passenden Anfragen wiederverwendet und werden beim Browser-Neustart, Deaktivieren des Profils oder bei Regeländerungen gelöscht."
+  },
+  "addCapturedHeader": {
+    "message": "Erfassten Header hinzufügen"
+  },
+  "headerNameLabel": {
+    "message": "Header-Name"
+  },
+  "headerValueLabel": {
+    "message": "Header-Wert"
+  },
+  "sensitiveHeaderWarning": {
+    "message": "Sensibler Header: Sein Wert kann Zugangsdaten enthalten. Verwenden Sie Test-Zugangsdaten und beschränken Sie die Ziel-Origins."
+  },
+  "cookieHeaderWarning": {
+    "message": "Sensibler Header: Das Überschreiben von Cookie kann mit Chromes Cookie-Speicher und dem Anmeldestatus in Konflikt geraten. Beschränken Sie die Ziel-Origins und verwenden Sie Testdaten."
+  },
+  "blockedHeaderWarning": {
+    "message": "Nicht verfügbar: Nur-Antwort-Header sowie Header für Anfrageziel, Nachrichtenrahmen, Proxy und Verbindung können nicht sicher weitergeleitet werden."
+  },
+  "excludeDescription": {
+    "message": "Glob-Muster innerhalb der Ziel-Origins, in denen vom Emulator verwaltete Header entfernt werden."
+  },
+  "addPath": {
+    "message": "Pfad hinzufügen"
+  },
+  "excludedPathHelpTitle": {
+    "message": "Glob-Abgleich"
+  },
+  "excludedPathHelp": {
+    "message": "Geben Sie einen Glob für den gesamten Pfad wie /assets/** ein. Verwenden Sie * innerhalb eines Pfadsegments, ** über Segmente hinweg und ? für ein Zeichen. Das Muster muss dem gesamten Pfad entsprechen: /assets passt nur auf /assets — verwenden Sie /assets/** für alles darunter. Query-Strings und Fragmente werden ignoriert, und die Regeln gelten nur innerhalb der Ziel-Origins."
+  },
+  "excludedPathLabel": {
+    "message": "Ausgeschlossener Pfad"
+  },
+  "excludedPathRequired": {
+    "message": "Geben Sie einen Pfad ein."
+  },
+  "excludedPathMustStartWithSlash": {
+    "message": "Geben Sie einen Pfad ein, der mit / beginnt."
+  },
+  "excludedPathUrlNotAllowed": {
+    "message": "Geben Sie einen Pfad wie /assets/** ein, keine vollständige URL."
+  },
+  "excludedPathSingleLine": {
+    "message": "Geben Sie den Pfad in einer Zeile ein."
+  },
+  "excludedPathRootWarning": {
+    "message": "/** schließt jede URL innerhalb der Ziel-Origins dieses Profils aus."
+  },
+  "excludedPathTesterTitle": {
+    "message": "Tester für ausgeschlossene Pfade"
+  },
+  "excludedPathTesterDescription": {
+    "message": "Testen Sie eine echte URL gegen den aktuellen ungespeicherten Profilentwurf."
+  },
+  "excludedPathTesterOrigin": {
+    "message": "Ziel-Origin"
+  },
+  "excludedPathTesterExcluded": {
+    "message": "Ausgeschlossen"
+  },
+  "excludedPathTesterMatched": {
+    "message": "Passendes Muster"
+  },
+  "probeDescription": {
+    "message": "Prüfen Sie vor dem Besuch, ob eine URL passt, ausgeschlossen ist und welche Anfrage-Header angehängt würden."
+  },
+  "runProbe": {
+    "message": "Prüfung ausführen"
+  },
+  "testUrlLabel": {
+    "message": "Zu testende URL"
+  },
+  "probeUrlRequired": {
+    "message": "Geben Sie eine URL ein."
+  },
+  "probeUrlInvalid": {
+    "message": "Geben Sie eine gültige absolute URL ein."
+  },
+  "probeTestedUrl": {
+    "message": "Geprüfte URL"
+  },
+  "probeTestedUrlDesc": {
+    "message": "Die aus diesem Entwurf ausgewertete normalisierte URL."
+  },
+  "probeAllowed": {
+    "message": "Erlaubt"
+  },
+  "probeAllowedDesc": {
+    "message": "Ja bedeutet, dass mindestens ein aktiviertes Profil dieser URL einen Header anhängt."
+  },
+  "probeExcluded": {
+    "message": "Ausgeschlossen"
+  },
+  "probeAttach": {
+    "message": "Anhängen"
+  },
+  "auditDescription": {
+    "message": "Laufzeitverlauf für URL-Treffer, Header-Erfassung, Sitzungsänderungen und DNR-Regelsynchronisierung. Anfrage-URLs bleiben nur für die aktuelle Browsersitzung im Speicher und werden nie auf der Festplatte gespeichert."
+  },
+  "auditLevel": {
+    "message": "Mindeststufe"
+  },
+  "auditLevelAll": {
+    "message": "Alle"
+  },
+  "auditLevelInfoUp": {
+    "message": "Info und höher"
+  },
+  "auditLevelWarnUp": {
+    "message": "Warn und höher"
+  },
+  "auditLevelErrorOnly": {
+    "message": "Nur Error"
+  },
+  "auditLevelBadgeDebug": {
+    "message": "Debug"
+  },
+  "auditLevelBadgeInfo": {
+    "message": "Info"
+  },
+  "auditLevelBadgeWarn": {
+    "message": "Warnung"
+  },
+  "auditLevelBadgeError": {
+    "message": "Fehler"
+  },
+  "auditEventOriginMatched": {
+    "message": "Origin erkannt"
+  },
+  "auditEventHeadersCaptured": {
+    "message": "Header erfasst"
+  },
+  "auditEventSessionCleared": {
+    "message": "Sitzung gelöscht"
+  },
+  "auditEventConfigCompiled": {
+    "message": "Konfiguration kompiliert"
+  },
+  "auditEventDnrRulesSynced": {
+    "message": "Anfrageregeln synchronisiert"
+  },
+  "auditEventCookiesUpdated": {
+    "message": "Cookies aktualisiert"
+  },
+  "auditEventCookieParseFailed": {
+    "message": "Cookie-Analyse fehlgeschlagen"
+  },
+  "auditEventError": {
+    "message": "Fehler"
+  },
+  "clearLogs": {
+    "message": "Protokolle löschen"
+  },
+  "noAuditLogs": {
+    "message": "Keine Audit-Protokolle."
+  },
+  "noAuditLogsAtLevel": {
+    "message": "Keine Protokolle dieser Stufe."
+  },
+  "auditFullUrl": {
+    "message": "Vollständige URL"
+  },
+  "auditMessage": {
+    "message": "Meldung"
+  },
+  "auditTab": {
+    "message": "Tab"
+  },
+  "auditRequest": {
+    "message": "Anfrage"
+  },
+  "auditHeaders": {
+    "message": "Header"
+  },
+  "auditData": {
+    "message": "Daten"
+  },
+  "advancedDescription": {
+    "message": "Direkter JSON-Editor zur erweiterten Prüfung und Wiederherstellung der Konfiguration."
+  },
+  "applyJson": {
+    "message": "JSON anwenden"
+  },
+  "configJsonLabel": {
+    "message": "Konfigurations-JSON"
+  },
+  "exportConfig": {
+    "message": "Konfiguration exportieren"
+  },
+  "importConfig": {
+    "message": "Konfiguration importieren"
+  },
+  "includeSecretValues": {
+    "message": "Geheime Werte einschließen"
+  },
+  "configReplaceConfirm": {
+    "message": "Die gesamte vorhandene Konfiguration wird ersetzt. Fortfahren?"
+  },
+  "configExported": {
+    "message": "Konfiguration exportiert."
+  },
+  "configImported": {
+    "message": "Konfiguration importiert."
+  },
+  "compileErrorTitle": {
+    "message": "Kompilierungsfehler"
+  },
+  "compileWarningsTitle": {
+    "message": "Kompilierungswarnungen"
+  },
+  "compileWarningNoTargetOrigins": {
+    "message": "Profil „$1“ hat keinen aktivierten Ziel-Origin."
+  },
+  "compileWarningNoHeaders": {
+    "message": "Profil „$1“ hängt noch keine Header an."
+  },
+  "compileWarningExcludedPathsRemoveHeaders": {
+    "message": "Profil „$1“ entfernt auf ausgeschlossenen Pfaden die eigenen weitergeleiteten Header."
+  },
+  "compileWarningCookieExclusion": {
+    "message": "Cookie-Regeln werden auf $1 übersprungen: Die ausgeschlossenen Pfade ($2) können das eigene Cookie des Browsers nicht erhalten, daher wird es auf diesem Origin unverändert gesendet."
+  },
+  "compileErrorHeaderConflict": {
+    "message": "Header „$1“ auf $2 wird von mehreren aktivierten Profilen ($3) gesetzt. Deaktivieren Sie alle bis auf eines."
+  },
+  "compileErrorCookieConflict": {
+    "message": "Cookie „$1“ auf $2 wird von mehreren aktivierten Profilen ($3) gesetzt. Deaktivieren Sie alle bis auf eines."
+  },
+  "runtimeStatusTitle": {
+    "message": "Laufzeitstatus"
+  },
+  "runtimeStatusDescription": {
+    "message": "Wie alle aktivierten Profile derzeit im Browser angewendet werden."
+  },
+  "tileEnabledProfiles": {
+    "message": "Aktivierte Profile"
+  },
+  "tileProfileDnrRules": {
+    "message": "DNR-Regeln dieses Profils"
+  },
+  "tileCompileErrors": {
+    "message": "Kompilierungsfehler"
+  },
+  "tileCompileWarnings": {
+    "message": "Kompilierungswarnungen"
+  },
+  "probeMatchedProfiles": {
+    "message": "Passende Profile"
+  },
+  "probeNoMatchedProfiles": {
+    "message": "Kein aktiviertes Profil passt zu dieser URL."
+  },
+  "probeMatchedProfileCount": {
+    "message": "Passende Profile"
+  },
+  "probeMatchedProfileCountDesc": {
+    "message": "Aktivierte Profile, deren Ziel-Origin zu dieser URL passt."
+  },
+  "probeEffectiveHeaders": {
+    "message": "Effektive Header"
+  },
+  "probeEffectiveHeadersDesc": {
+    "message": "Header-Namen, die nach ausgeschlossenen Pfaden und Konflikten tatsächlich an die Anfrage angehängt werden."
+  },
+  "probeCookieHeader": {
+    "message": "Cookie-Header"
+  },
+  "probeCookieHeaderDesc": {
+    "message": "Endgültiger Cookie-Header-Wert, der an die Ziel-URL gesendet wird. `none` bedeutet, dass der von Chrome erzeugte Original-Cookie unverändert übertragen wird."
+  },
+  "probeCookieHeaderNone": {
+    "message": "none (der Original-Cookie von Chrome wird durchgereicht)"
+  },
+  "popupEnabledProfiles": {
+    "message": "Aktivierte Profile"
+  },
+  "popupProfiles": {
+    "message": "Profile"
+  },
+  "popupNoProfiles": {
+    "message": "Kein Profil konfiguriert"
+  },
+  "popupAllProfilesDisabled": {
+    "message": "Kein Profil ist aktiviert"
+  },
+  "popupCapturedBy": {
+    "message": "Erfasst von $1"
+  },
+  "sectionCookies": {
+    "message": "Cookies"
+  },
+  "sectionMigration": {
+    "message": "Migrationsprobleme"
+  },
+  "cookiesDescription": {
+    "message": "Cookies, die an Anfragen angehängt werden. Feste Cookies gelten immer; verfolgte Cookies erfassen Werte aus Set-Cookie-Antworten."
+  },
+  "addFixedCookie": {
+    "message": "Festes Cookie hinzufügen"
+  },
+  "addTrackedCookie": {
+    "message": "Verfolgtes Cookie hinzufügen"
+  },
+  "fixedCookiesTitle": {
+    "message": "Feste Cookies"
+  },
+  "trackedCookiesTitle": {
+    "message": "Verfolgte Cookies"
+  },
+  "cookieNameLabel": {
+    "message": "Cookie-Name"
+  },
+  "cookieValueLabel": {
+    "message": "Cookie-Wert"
+  },
+  "trackedCookieValueLabel": {
+    "message": "Erfasster Wert"
+  },
+  "clearTrackedCookieAction": {
+    "message": "Wert löschen"
+  },
+  "clearAllTrackedCookies": {
+    "message": "Alle verfolgten Cookies löschen"
+  },
+  "clearAllTrackedCookiesConfirm": {
+    "message": "Alle verfolgten Cookie-Werte dieses Profils löschen?"
+  },
+  "noFixedCookies": {
+    "message": "Keine festen Cookies konfiguriert."
+  },
+  "noTrackedCookies": {
+    "message": "Keine verfolgten Cookies konfiguriert."
+  },
+  "noTrackedCookieValue": {
+    "message": "noch nicht erfasst"
+  },
+  "migrationIssuesDescription": {
+    "message": "Alte Cookie-Header-Einstellungen, die nicht automatisch migriert werden konnten. Löschen Sie sie, nachdem Sie die Cookies unten neu konfiguriert haben."
+  },
+  "migrationIssueDismiss": {
+    "message": "Löschen"
+  },
+  "migrationIssueSourceFixed": {
+    "message": "Fester Header „Cookie“"
+  },
+  "migrationIssueSourceCapture": {
+    "message": "Erfasster Header „Cookie“"
+  },
+  "migrationIssueReasonPopupMismatch": {
+    "message": "Popup-Auswahloptionen können nicht reproduziert werden."
+  },
+  "migrationIssueReasonParseFail": {
+    "message": "Cookie-Wert konnte nicht geparst werden."
+  },
+  "migrationIssueReasonDuplicate": {
+    "message": "Doppelter Cookie-Name über Header hinweg."
+  },
+  "migrationIssueReasonCapture": {
+    "message": "Erfasster Cookie-Header hat keinen eindeutigen Zielnamen."
+  },
+  "migrationIssueOriginalHeaderLabel": {
+    "message": "Originalwert"
+  },
+  "noMigrationIssues": {
+    "message": "Keine Migrationsprobleme."
+  },
+  "popupCookiesTitle": {
+    "message": "Cookies"
+  },
+  "popupCookieFixedLabel": {
+    "message": "Fest"
+  },
+  "popupCookieTrackedLabel": {
+    "message": "Verfolgt"
+  },
+  "popupCookieNoValueYet": {
+    "message": "noch nicht erfasst"
+  },
+  "popupCookieClearAll": {
+    "message": "Verfolgte Cookies löschen"
+  },
+  "popupCookieClearOne": {
+    "message": "Löschen"
+  },
+  "popupNoCookies": {
+    "message": "Keine Cookies für diese Seite."
+  },
+  "popupNoMatchTitle": {
+    "message": "Kein Profil zielt auf diese Website."
+  },
+  "popupNoMatchHint": {
+    "message": "Fügen Sie den Origin dieser Website einem Profil hinzu, um hier Header weiterzuleiten."
+  },
+  "popupAddOrigin": {
+    "message": "Diese Website hinzufügen"
+  },
+  "popupUnsupportedPage": {
+    "message": "Header Relay gilt nur für http- und https-Seiten."
+  },
+  "runtimeStaleRules": {
+    "message": "Erweiterungsregeln konnten nicht aktualisiert werden. Vorheriger Regelsatz bleibt aktiv — ein Neuladen kann helfen."
+  },
+  "runtimeStaleFailedRules": {
+    "message": "Warnung: DNR-Update und Remove-only-Wiederholung sind beide fehlgeschlagen. Veraltete Regeln werden möglicherweise weiterhin gesendet."
+  },
+  "rateOnStore": {
+    "message": "Im Chrome Web Store bewerten"
+  },
+  "reviewPromptAskTitle": {
+    "message": "Hilft dir Header Relay weiter?"
+  },
+  "reviewPromptYes": {
+    "message": "Ja"
+  },
+  "reviewPromptNo": {
+    "message": "Eher nicht"
+  },
+  "reviewPromptLater": {
+    "message": "Später"
+  },
+  "reviewPromptRateBody": {
+    "message": "Eine Bewertung im Chrome Web Store hilft anderen Entwicklern beim Finden."
+  },
+  "reviewPromptRateAction": {
+    "message": "Bewertung schreiben"
+  },
+  "reviewPromptFeedbackBody": {
+    "message": "Sag uns, was fehlt, damit wir es beheben können."
+  },
+  "reviewPromptFeedbackAction": {
+    "message": "Feedback senden"
+  },
+  "reviewPromptClose": {
+    "message": "Schließen"
+  }
+}

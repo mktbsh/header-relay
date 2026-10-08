@@ -1,0 +1,794 @@
+{
+  "extName": {
+    "message": "Header Relay — HTTPリクエストヘッダー変更・レスポンスヘッダー取得"
+  },
+  "extDescription": {
+    "message": "HTTPレスポンスヘッダーを取得し、固定または取得したヘッダーを一致するブラウザリクエストに付与するChrome拡張機能です。"
+  },
+  "commandToggleAllProfiles": {
+    "message": "すべてのプロファイルを切り替え"
+  },
+  "enabled": {
+    "message": "有効"
+  },
+  "disabled": {
+    "message": "無効"
+  },
+  "remove": {
+    "message": "削除"
+  },
+  "refresh": {
+    "message": "更新"
+  },
+  "yes": {
+    "message": "はい"
+  },
+  "no": {
+    "message": "いいえ"
+  },
+  "loading": {
+    "message": "読み込み中..."
+  },
+  "popupRefreshStatus": {
+    "message": "ステータスを更新"
+  },
+  "popupSettings": {
+    "message": "設定"
+  },
+  "popupToggleProfile": {
+    "message": "プロファイルの有効/無効を切り替え"
+  },
+  "popupToggleHeader": {
+    "message": "固定ヘッダーの有効/無効を切り替え"
+  },
+  "dnrSyncError": {
+    "message": "DNR同期エラー"
+  },
+  "popupFixedHeaders": {
+    "message": "固定ヘッダー"
+  },
+  "popupNoFixedHeaders": {
+    "message": "固定ヘッダーは設定されていません"
+  },
+  "popupThisPage": {
+    "message": "このページ"
+  },
+  "popupNoEditableHeaders": {
+    "message": "このページで変更できるヘッダーはありません"
+  },
+  "popupCustomValue": {
+    "message": "カスタム: $1"
+  },
+  "popupExposureShow": {
+    "message": "ポップアップに表示"
+  },
+  "popupExposureInputType": {
+    "message": "入力形式"
+  },
+  "popupExposureInputText": {
+    "message": "テキスト"
+  },
+  "popupExposureInputSelect": {
+    "message": "選択肢"
+  },
+  "popupExposureOptionLabel": {
+    "message": "ラベル"
+  },
+  "popupExposureOptionValue": {
+    "message": "値"
+  },
+  "popupExposureAddOption": {
+    "message": "選択肢を追加"
+  },
+  "popupExposureMoveUp": {
+    "message": "選択肢を上へ移動"
+  },
+  "popupExposureMoveDown": {
+    "message": "選択肢を下へ移動"
+  },
+  "popupCapturedHeaders": {
+    "message": "キャプチャヘッダー"
+  },
+  "popupEnableProfileHint": {
+    "message": "ヘッダーを付与するにはプロファイルを有効にしてください"
+  },
+  "popupNoCapturedValues": {
+    "message": "取得済みの値はありません"
+  },
+  "popupClearCapturedValues": {
+    "message": "取得済みの値をクリア"
+  },
+  "privacyPolicy": {
+    "message": "プライバシーポリシー"
+  },
+  "popupCreateProfileHint": {
+    "message": "プロファイル管理でプロファイルを作成すると、ヘッダーの中継を開始できます。"
+  },
+  "popupOpenSettings": {
+    "message": "プロファイル管理を開く"
+  },
+  "statusCaptured": {
+    "message": "取得済み"
+  },
+  "statusWaiting": {
+    "message": "待機中"
+  },
+  "timeJustNow": {
+    "message": "たった今"
+  },
+  "timeMinutesAgo": {
+    "message": "$1分前"
+  },
+  "timeHoursAgo": {
+    "message": "$1時間前"
+  },
+  "timeDaysAgo": {
+    "message": "$1日前"
+  },
+  "manageReload": {
+    "message": "再読み込み"
+  },
+  "manageReloadConfirm": {
+    "message": "未保存の変更を破棄して再読み込みしますか？"
+  },
+  "dismissMessage": {
+    "message": "閉じる"
+  },
+  "unsavedChanges": {
+    "message": "未保存の変更"
+  },
+  "manageSaving": {
+    "message": "保存中..."
+  },
+  "manageSave": {
+    "message": "保存"
+  },
+  "manageSavedNotice": {
+    "message": "保存して適用しました。"
+  },
+  "manageCapturedCleared": {
+    "message": "取得済みの値をクリアしました。"
+  },
+  "manageLogsCleared": {
+    "message": "監査ログをクリアしました。"
+  },
+  "profileNameRequired": {
+    "message": "プロファイル名は必須です。"
+  },
+  "profileNameDuplicate": {
+    "message": "同じ名前のプロファイルがすでに存在します。"
+  },
+  "profileSettingsTitle": {
+    "message": "プロファイル設定"
+  },
+  "profileSettingsDescription": {
+    "message": "選択中のプロファイルの名前変更・複製・削除を行います。"
+  },
+  "profileEnabledLabel": {
+    "message": "プロファイルを有効にする"
+  },
+  "profileEnabledDescription": {
+    "message": "無効なプロファイルはヘッダーの取得・付与を行いません。プロファイルを無効にすると、取得済みの値も消去されます。"
+  },
+  "profileLabel": {
+    "message": "プロファイル"
+  },
+  "profilesLabel": {
+    "message": "プロファイル"
+  },
+  "profileNameLabel": {
+    "message": "プロファイル名"
+  },
+  "newProfile": {
+    "message": "新規"
+  },
+  "createProfileTitle": {
+    "message": "プロファイルを作成"
+  },
+  "createProfile": {
+    "message": "作成"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "deleteProfile": {
+    "message": "プロファイルを削除"
+  },
+  "duplicateProfile": {
+    "message": "プロファイルを複製"
+  },
+  "profileDuplicated": {
+    "message": "プロファイルを複製しました。"
+  },
+  "moveProfileUp": {
+    "message": "$1を上へ移動"
+  },
+  "moveProfileDown": {
+    "message": "$1を下へ移動"
+  },
+  "profileDeleteConfirm": {
+    "message": "プロファイル「$1」を削除しますか？取得済みの値も削除されます。"
+  },
+  "compactMode": {
+    "message": "コンパクト"
+  },
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "settingsGeneralTab": {
+    "message": "一般"
+  },
+  "settingsDescription": {
+    "message": "Header Relay のすべての画面に共通する設定を変更します。"
+  },
+  "settingsAppearance": {
+    "message": "外観"
+  },
+  "settingsCompactDescription": {
+    "message": "拡張機能全体の余白とコントロールを小さく表示します。"
+  },
+  "settingsPrivacy": {
+    "message": "プライバシー"
+  },
+  "settingsPrivacyDescription": {
+    "message": "設定、取得した値、監査ログの取り扱いを確認できます。"
+  },
+  "homepage": {
+    "message": "ホームページ"
+  },
+  "buyMeACoffee": {
+    "message": "Buy Me a Coffee"
+  },
+  "sectionOverview": {
+    "message": "概要"
+  },
+  "sectionOrigins": {
+    "message": "対象オリジン"
+  },
+  "targetOriginLabel": {
+    "message": "対象オリジン"
+  },
+  "sectionHeaders": {
+    "message": "ヘッダー"
+  },
+  "sectionFixed": {
+    "message": "固定ヘッダー"
+  },
+  "sectionCapture": {
+    "message": "取得ヘッダー"
+  },
+  "sectionExclude": {
+    "message": "除外パス"
+  },
+  "sectionProbe": {
+    "message": "URLプローブ"
+  },
+  "sectionLogs": {
+    "message": "監査ログ"
+  },
+  "sectionAdvanced": {
+    "message": "高度な設定"
+  },
+  "advancedSettingsDescription": {
+    "message": "URLプローブの実行、監査ログの確認、設定全体のJSON編集を行います。"
+  },
+  "advancedJsonEditorTab": {
+    "message": "JSON編集"
+  },
+  "tileTargetOrigins": {
+    "message": "対象オリジン"
+  },
+  "tileFixedHeadersSummary": {
+    "message": "設定済み / 適用中の固定ヘッダー"
+  },
+  "tileCapturedValues": {
+    "message": "取得済みの値"
+  },
+  "tileDnrSessionRules": {
+    "message": "DNRセッションルール"
+  },
+  "activeHeadersTitle": {
+    "message": "一致するリクエストに適用されるヘッダー"
+  },
+  "activeHeadersDescription": {
+    "message": "このプロファイルがリクエストURLに一致したときに付与されるヘッダーです。"
+  },
+  "noActiveHeaders": {
+    "message": "有効なリクエストヘッダーはありません。"
+  },
+  "capturedPanelTitle": {
+    "message": "取得済みの値"
+  },
+  "capturedPanelDescription": {
+    "message": "現在の拡張機能セッションに保存されている最新のレスポンスヘッダー値です。"
+  },
+  "noCapturedValues": {
+    "message": "取得済みの値はありません。"
+  },
+  "copyCapturedValue": {
+    "message": "コピー"
+  },
+  "copiedCapturedValue": {
+    "message": "コピーしました"
+  },
+  "sessionValuesTitle": {
+    "message": "現在のセッションの値"
+  },
+  "clearCapturedValues": {
+    "message": "取得済みの値をクリア"
+  },
+  "clearCapturedValuesDescription": {
+    "message": "現在の取得値だけを消去し、プロファイルとヘッダー設定は残します。プロファイルを無効にした場合も取得値は消去されます。"
+  },
+  "originsDescription": {
+    "message": "ヘッダーエミュレーションを許可するオリジンです。これ以外のオリジンへのリクエストは対象外です。"
+  },
+  "originAccessGranted": {
+    "message": "許可済み"
+  },
+  "originAccessRequired": {
+    "message": "要許可"
+  },
+  "originUnsupported": {
+    "message": "非対応のオリジン"
+  },
+  "originGrantAccess": {
+    "message": "アクセスを許可"
+  },
+  "originsPermissionNote": {
+    "message": "保存時に、追加したオリジンへのホスト権限を要求します。権限はそのホストの全ポートに及び、この拡張機能のヘッダー中継のみに使用されます。Chromeの拡張機能設定からいつでも解除できます。"
+  },
+  "revokeOrphanedConfirm": {
+    "message": "どのプロファイルからも使われなくなったホスト権限があります:\n$1\n今すぐ解除しますか?"
+  },
+  "popupAccessRequired": {
+    "message": "次のオリジンへのホスト権限が必要です:"
+  },
+  "addOrigin": {
+    "message": "オリジンを追加"
+  },
+  "fixedDescription": {
+    "message": "名前と値は削除するまで拡張機能のローカル設定に保存されます。有効な値は一致するリクエストだけに付与され、それ以外には送信されません。"
+  },
+  "addFixedHeader": {
+    "message": "固定ヘッダーを追加"
+  },
+  "captureDescription": {
+    "message": "一致するレスポンスから指定した名前だけを取得します。値は現在のブラウザセッション中だけメモリに保持し、一致するリクエストだけで再利用します。ブラウザ再起動、プロファイル無効化、ルール変更時に消去されます。"
+  },
+  "addCapturedHeader": {
+    "message": "取得ヘッダーを追加"
+  },
+  "headerNameLabel": {
+    "message": "ヘッダー名"
+  },
+  "headerValueLabel": {
+    "message": "ヘッダー値"
+  },
+  "sensitiveHeaderWarning": {
+    "message": "機密性の高いヘッダーです。値に認証情報が含まれる可能性があります。テスト用の認証情報を使い、対象オリジンを限定してください。"
+  },
+  "cookieHeaderWarning": {
+    "message": "機密性の高いヘッダーです。Cookie の上書きは Chrome のCookieストアや認証状態と競合する可能性があります。対象オリジンを限定し、テスト用データを使ってください。"
+  },
+  "blockedHeaderWarning": {
+    "message": "設定できません。レスポンス専用、リクエスト先、メッセージ長、プロキシ、接続を管理するヘッダーは安全に中継できません。"
+  },
+  "excludeDescription": {
+    "message": "対象オリジン内で、エミュレーターが管理するヘッダーを取り除く glob パターンです。"
+  },
+  "addPath": {
+    "message": "パスを追加"
+  },
+  "excludedPathHelpTitle": {
+    "message": "glob 一致"
+  },
+  "excludedPathHelp": {
+    "message": "/assets/** のような glob を指定します。* は同一セグメント内、** はセグメントを跨ぐ任意、? は1文字に一致します。pathname 全体に一致する必要があり、/assets は /assets のみに一致します（配下すべてを対象にするには /assets/**）。クエリとハッシュは無視され、対象オリジン内でのみ評価します。"
+  },
+  "excludedPathLabel": {
+    "message": "除外パス"
+  },
+  "excludedPathRequired": {
+    "message": "パスを入力してください。"
+  },
+  "excludedPathMustStartWithSlash": {
+    "message": "/ で始まるパスを入力してください。"
+  },
+  "excludedPathUrlNotAllowed": {
+    "message": "URL全体ではなく、/assets/** のようなパスを入力してください。"
+  },
+  "excludedPathSingleLine": {
+    "message": "パスは1行で入力してください。"
+  },
+  "excludedPathRootWarning": {
+    "message": "/** はこのプロファイルの対象オリジン内にあるすべてのURLを除外します。"
+  },
+  "excludedPathTesterTitle": {
+    "message": "除外パス判定テスター"
+  },
+  "excludedPathTesterDescription": {
+    "message": "現在編集中の未保存プロファイルに対して実URLを判定します。"
+  },
+  "excludedPathTesterOrigin": {
+    "message": "対象オリジン"
+  },
+  "excludedPathTesterExcluded": {
+    "message": "除外"
+  },
+  "excludedPathTesterMatched": {
+    "message": "一致したパターン"
+  },
+  "probeDescription": {
+    "message": "URLにアクセスする前に、一致・除外の判定と付与されるリクエストヘッダーを確認できます。"
+  },
+  "runProbe": {
+    "message": "プローブを実行"
+  },
+  "testUrlLabel": {
+    "message": "テストするURL"
+  },
+  "probeUrlRequired": {
+    "message": "URLを入力してください。"
+  },
+  "probeUrlInvalid": {
+    "message": "有効な絶対URLを入力してください。"
+  },
+  "probeTestedUrl": {
+    "message": "判定URL"
+  },
+  "probeTestedUrlDesc": {
+    "message": "現在のDraftに対して評価した正規化済みURLです。"
+  },
+  "probeAllowed": {
+    "message": "許可"
+  },
+  "probeAllowedDesc": {
+    "message": "「はい」は、有効なプロファイルのいずれかがこのURLにヘッダーを付与することを表します。"
+  },
+  "probeExcluded": {
+    "message": "除外"
+  },
+  "probeAttach": {
+    "message": "付与"
+  },
+  "auditDescription": {
+    "message": "URL一致、ヘッダー取得、セッション変更、DNRルール同期の実行履歴です。リクエストURLは現在のブラウザセッション中のみメモリ上に保持され、ディスクには保存されません。"
+  },
+  "auditLevel": {
+    "message": "最小レベル"
+  },
+  "auditLevelAll": {
+    "message": "すべて"
+  },
+  "auditLevelInfoUp": {
+    "message": "info以上"
+  },
+  "auditLevelWarnUp": {
+    "message": "warn以上"
+  },
+  "auditLevelErrorOnly": {
+    "message": "errorのみ"
+  },
+  "auditLevelBadgeDebug": {
+    "message": "デバッグ"
+  },
+  "auditLevelBadgeInfo": {
+    "message": "情報"
+  },
+  "auditLevelBadgeWarn": {
+    "message": "警告"
+  },
+  "auditLevelBadgeError": {
+    "message": "エラー"
+  },
+  "auditEventOriginMatched": {
+    "message": "オリジンに一致"
+  },
+  "auditEventHeadersCaptured": {
+    "message": "ヘッダーを取得"
+  },
+  "auditEventSessionCleared": {
+    "message": "セッションをクリア"
+  },
+  "auditEventConfigCompiled": {
+    "message": "設定をコンパイル"
+  },
+  "auditEventDnrRulesSynced": {
+    "message": "リクエストルールを同期"
+  },
+  "auditEventCookiesUpdated": {
+    "message": "Cookieを更新"
+  },
+  "auditEventCookieParseFailed": {
+    "message": "Cookieの解析に失敗"
+  },
+  "auditEventError": {
+    "message": "エラー"
+  },
+  "clearLogs": {
+    "message": "ログをクリア"
+  },
+  "noAuditLogs": {
+    "message": "監査ログはありません。"
+  },
+  "noAuditLogsAtLevel": {
+    "message": "この深刻度のログはありません。"
+  },
+  "auditFullUrl": {
+    "message": "完全なURL"
+  },
+  "auditMessage": {
+    "message": "メッセージ"
+  },
+  "auditTab": {
+    "message": "タブ"
+  },
+  "auditRequest": {
+    "message": "リクエスト"
+  },
+  "auditHeaders": {
+    "message": "ヘッダー"
+  },
+  "auditData": {
+    "message": "データ"
+  },
+  "advancedDescription": {
+    "message": "設定の詳細確認や復旧のためにJSONを直接編集できます。"
+  },
+  "applyJson": {
+    "message": "JSONを適用"
+  },
+  "configJsonLabel": {
+    "message": "設定JSON"
+  },
+  "exportConfig": {
+    "message": "設定をエクスポート"
+  },
+  "importConfig": {
+    "message": "設定をインポート"
+  },
+  "includeSecretValues": {
+    "message": "秘密の値を含める"
+  },
+  "configReplaceConfirm": {
+    "message": "既存の設定をすべて置き換えます。続行しますか？"
+  },
+  "configExported": {
+    "message": "設定を書き出しました。"
+  },
+  "configImported": {
+    "message": "設定を読み込みました。"
+  },
+  "compileErrorTitle": {
+    "message": "コンパイルエラー"
+  },
+  "compileWarningsTitle": {
+    "message": "コンパイル警告"
+  },
+  "compileWarningNoTargetOrigins": {
+    "message": "プロファイル「$1」に有効な対象オリジンがありません。"
+  },
+  "compileWarningNoHeaders": {
+    "message": "プロファイル「$1」はまだヘッダーを付与しません。"
+  },
+  "compileWarningExcludedPathsRemoveHeaders": {
+    "message": "プロファイル「$1」は、除外パスで自身が中継するヘッダーを削除します。"
+  },
+  "compileWarningCookieExclusion": {
+    "message": "$1 では Cookie ルールを適用しません。除外パス($2)でブラウザ本来の Cookie を保てないため、このオリジンでは本来の Cookie をそのまま送信します。"
+  },
+  "compileErrorHeaderConflict": {
+    "message": "$2 のヘッダー「$1」を複数の有効なプロファイル($3)が設定しています。1つ以外を無効にしてください。"
+  },
+  "compileErrorCookieConflict": {
+    "message": "$2 の Cookie「$1」を複数の有効なプロファイル($3)が設定しています。1つ以外を無効にしてください。"
+  },
+  "runtimeStatusTitle": {
+    "message": "ランタイム状態"
+  },
+  "runtimeStatusDescription": {
+    "message": "有効なすべてのプロファイルが、いまブラウザーにどう適用されているかを示します。"
+  },
+  "tileEnabledProfiles": {
+    "message": "有効なプロファイル"
+  },
+  "tileProfileDnrRules": {
+    "message": "このプロファイルのDNRルール"
+  },
+  "tileCompileErrors": {
+    "message": "コンパイルエラー"
+  },
+  "tileCompileWarnings": {
+    "message": "コンパイル警告"
+  },
+  "probeMatchedProfiles": {
+    "message": "一致したプロファイル"
+  },
+  "probeNoMatchedProfiles": {
+    "message": "このURLに一致する有効なプロファイルはありません。"
+  },
+  "probeMatchedProfileCount": {
+    "message": "一致したプロファイル数"
+  },
+  "probeMatchedProfileCountDesc": {
+    "message": "対象オリジンがこのURLに一致した有効なプロファイルの数です。"
+  },
+  "probeEffectiveHeaders": {
+    "message": "最終的なヘッダー"
+  },
+  "probeEffectiveHeadersDesc": {
+    "message": "除外パスと競合を考慮したうえで実際に付与されるヘッダー名です。"
+  },
+  "probeCookieHeader": {
+    "message": "Cookieヘッダー"
+  },
+  "probeCookieHeaderDesc": {
+    "message": "対象URLへ送信される最終的なCookieヘッダー値です。`none`のときはChromeが生成したCookieがそのまま送信されます。"
+  },
+  "probeCookieHeaderNone": {
+    "message": "none（Chromeが生成した値をそのまま送信）"
+  },
+  "popupEnabledProfiles": {
+    "message": "有効なプロファイル"
+  },
+  "popupProfiles": {
+    "message": "プロファイル"
+  },
+  "popupNoProfiles": {
+    "message": "プロファイルがありません"
+  },
+  "popupAllProfilesDisabled": {
+    "message": "有効なプロファイルがありません"
+  },
+  "popupCapturedBy": {
+    "message": "取得元: $1"
+  },
+  "sectionCookies": {
+    "message": "Cookie"
+  },
+  "sectionMigration": {
+    "message": "移行時の問題"
+  },
+  "cookiesDescription": {
+    "message": "リクエストに付与する Cookie。固定 Cookie は常に送信し、追跡 Cookie は Set-Cookie 応答から値を取得します。"
+  },
+  "addFixedCookie": {
+    "message": "固定 Cookie を追加"
+  },
+  "addTrackedCookie": {
+    "message": "追跡 Cookie を追加"
+  },
+  "fixedCookiesTitle": {
+    "message": "固定 Cookie"
+  },
+  "trackedCookiesTitle": {
+    "message": "追跡 Cookie"
+  },
+  "cookieNameLabel": {
+    "message": "Cookie 名"
+  },
+  "cookieValueLabel": {
+    "message": "Cookie 値"
+  },
+  "trackedCookieValueLabel": {
+    "message": "取得値"
+  },
+  "clearTrackedCookieAction": {
+    "message": "値を消去"
+  },
+  "clearAllTrackedCookies": {
+    "message": "追跡 Cookie 値をすべて消去"
+  },
+  "clearAllTrackedCookiesConfirm": {
+    "message": "このプロファイルで追跡中のCookieの値をすべてクリアしますか?"
+  },
+  "noFixedCookies": {
+    "message": "固定 Cookie は未設定です。"
+  },
+  "noTrackedCookies": {
+    "message": "追跡 Cookie は未設定です。"
+  },
+  "noTrackedCookieValue": {
+    "message": "未取得"
+  },
+  "migrationIssuesDescription": {
+    "message": "自動移行できなかった旧 Cookie ヘッダー設定です。下で Cookie を設定し直したら削除してください。"
+  },
+  "migrationIssueDismiss": {
+    "message": "削除"
+  },
+  "migrationIssueSourceFixed": {
+    "message": "固定ヘッダー「Cookie」"
+  },
+  "migrationIssueSourceCapture": {
+    "message": "キャプチャヘッダー「Cookie」"
+  },
+  "migrationIssueReasonPopupMismatch": {
+    "message": "ポップアップの選択肢を再現できません。"
+  },
+  "migrationIssueReasonParseFail": {
+    "message": "Cookie 値を解析できません。"
+  },
+  "migrationIssueReasonDuplicate": {
+    "message": "複数ヘッダー間で Cookie 名が重複しています。"
+  },
+  "migrationIssueReasonCapture": {
+    "message": "キャプチャした Cookie ヘッダーからは追跡対象名を特定できません。"
+  },
+  "migrationIssueOriginalHeaderLabel": {
+    "message": "元の値"
+  },
+  "noMigrationIssues": {
+    "message": "移行時の問題はありません。"
+  },
+  "popupCookiesTitle": {
+    "message": "Cookie"
+  },
+  "popupCookieFixedLabel": {
+    "message": "固定"
+  },
+  "popupCookieTrackedLabel": {
+    "message": "追跡"
+  },
+  "popupCookieNoValueYet": {
+    "message": "未取得"
+  },
+  "popupCookieClearAll": {
+    "message": "追跡 Cookie を消去"
+  },
+  "popupCookieClearOne": {
+    "message": "消去"
+  },
+  "popupNoCookies": {
+    "message": "このページに送る Cookie はありません。"
+  },
+  "popupNoMatchTitle": {
+    "message": "このサイトを対象にするプロファイルはありません。"
+  },
+  "popupNoMatchHint": {
+    "message": "このサイトのオリジンをプロファイルに追加すると、ここでヘッダーを中継できます。"
+  },
+  "popupAddOrigin": {
+    "message": "このサイトを追加"
+  },
+  "popupUnsupportedPage": {
+    "message": "Header Relay は http と https のページにだけ適用されます。"
+  },
+  "runtimeStaleRules": {
+    "message": "拡張機能のルールを更新できませんでした。前回成功したルールを引き続き適用中です — 再読み込みで解消することがあります。"
+  },
+  "runtimeStaleFailedRules": {
+    "message": "警告: DNR 更新も remove-only 再試行も失敗しました。古いルールが送信され続けている可能性があります。"
+  },
+  "rateOnStore": {
+    "message": "Chrome ウェブストアで評価"
+  },
+  "reviewPromptAskTitle": {
+    "message": "Header Relay は役に立っていますか?"
+  },
+  "reviewPromptYes": {
+    "message": "はい"
+  },
+  "reviewPromptNo": {
+    "message": "いまひとつ"
+  },
+  "reviewPromptLater": {
+    "message": "後で"
+  },
+  "reviewPromptRateBody": {
+    "message": "ストアのレビューが、他の開発者に見つけてもらう助けになります。"
+  },
+  "reviewPromptRateAction": {
+    "message": "レビューを書く"
+  },
+  "reviewPromptFeedbackBody": {
+    "message": "改善したいので、足りない点を聞かせてください。"
+  },
+  "reviewPromptFeedbackAction": {
+    "message": "意見を送る"
+  },
+  "reviewPromptClose": {
+    "message": "閉じる"
+  }
+}

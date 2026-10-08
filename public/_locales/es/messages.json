@@ -1,0 +1,794 @@
+{
+  "extName": {
+    "message": "Header Relay — Modifica cabeceras de solicitud y captura las de respuesta"
+  },
+  "extDescription": {
+    "message": "Captura encabezados de respuesta HTTP y reenvía encabezados fijos o capturados a las solicitudes coincidentes del navegador."
+  },
+  "commandToggleAllProfiles": {
+    "message": "Alternar todos los perfiles"
+  },
+  "enabled": {
+    "message": "Activado"
+  },
+  "disabled": {
+    "message": "Desactivado"
+  },
+  "remove": {
+    "message": "Eliminar"
+  },
+  "refresh": {
+    "message": "Actualizar"
+  },
+  "yes": {
+    "message": "sí"
+  },
+  "no": {
+    "message": "no"
+  },
+  "loading": {
+    "message": "Cargando..."
+  },
+  "popupRefreshStatus": {
+    "message": "Actualizar estado"
+  },
+  "popupSettings": {
+    "message": "Configuración"
+  },
+  "popupToggleProfile": {
+    "message": "Activar/desactivar perfil"
+  },
+  "popupToggleHeader": {
+    "message": "Activar/desactivar encabezado fijo"
+  },
+  "dnrSyncError": {
+    "message": "Error de sincronización DNR"
+  },
+  "popupFixedHeaders": {
+    "message": "Encabezados fijos"
+  },
+  "popupNoFixedHeaders": {
+    "message": "No hay encabezados fijos configurados"
+  },
+  "popupThisPage": {
+    "message": "Esta página"
+  },
+  "popupNoEditableHeaders": {
+    "message": "No hay encabezados editables para esta página"
+  },
+  "popupCustomValue": {
+    "message": "Personalizado: $1"
+  },
+  "popupExposureShow": {
+    "message": "Mostrar en el popup"
+  },
+  "popupExposureInputType": {
+    "message": "Tipo de entrada"
+  },
+  "popupExposureInputText": {
+    "message": "Texto"
+  },
+  "popupExposureInputSelect": {
+    "message": "Selección"
+  },
+  "popupExposureOptionLabel": {
+    "message": "Etiqueta"
+  },
+  "popupExposureOptionValue": {
+    "message": "Valor"
+  },
+  "popupExposureAddOption": {
+    "message": "Añadir opción"
+  },
+  "popupExposureMoveUp": {
+    "message": "Subir opción"
+  },
+  "popupExposureMoveDown": {
+    "message": "Bajar opción"
+  },
+  "popupCapturedHeaders": {
+    "message": "Encabezados capturados"
+  },
+  "popupEnableProfileHint": {
+    "message": "Activa el perfil para adjuntar encabezados"
+  },
+  "popupNoCapturedValues": {
+    "message": "No hay valores capturados"
+  },
+  "popupClearCapturedValues": {
+    "message": "Borrar valores capturados"
+  },
+  "privacyPolicy": {
+    "message": "Política de privacidad"
+  },
+  "popupCreateProfileHint": {
+    "message": "Crea un perfil en la gestión de perfiles para empezar a reenviar encabezados."
+  },
+  "popupOpenSettings": {
+    "message": "Abrir gestión de perfiles"
+  },
+  "statusCaptured": {
+    "message": "Capturado"
+  },
+  "statusWaiting": {
+    "message": "En espera"
+  },
+  "timeJustNow": {
+    "message": "ahora mismo"
+  },
+  "timeMinutesAgo": {
+    "message": "hace $1 min"
+  },
+  "timeHoursAgo": {
+    "message": "hace $1 h"
+  },
+  "timeDaysAgo": {
+    "message": "hace $1 d"
+  },
+  "manageReload": {
+    "message": "Recargar"
+  },
+  "manageReloadConfirm": {
+    "message": "¿Descartar los cambios sin guardar y recargar?"
+  },
+  "dismissMessage": {
+    "message": "Cerrar"
+  },
+  "unsavedChanges": {
+    "message": "Cambios sin guardar"
+  },
+  "manageSaving": {
+    "message": "Guardando..."
+  },
+  "manageSave": {
+    "message": "Guardar"
+  },
+  "manageSavedNotice": {
+    "message": "Guardado y aplicado."
+  },
+  "manageCapturedCleared": {
+    "message": "Valores capturados borrados."
+  },
+  "manageLogsCleared": {
+    "message": "Registros de auditoría borrados."
+  },
+  "profileNameRequired": {
+    "message": "El nombre del perfil es obligatorio."
+  },
+  "profileNameDuplicate": {
+    "message": "Ya existe un perfil con este nombre."
+  },
+  "profileSettingsTitle": {
+    "message": "Configuración del perfil"
+  },
+  "profileSettingsDescription": {
+    "message": "Cambia el nombre del perfil seleccionado, duplícalo o elimínalo."
+  },
+  "profileEnabledLabel": {
+    "message": "Perfil activado"
+  },
+  "profileEnabledDescription": {
+    "message": "Los perfiles desactivados no capturan ni adjuntan encabezados. Desactivar un perfil también borra sus valores capturados."
+  },
+  "profileLabel": {
+    "message": "Perfil"
+  },
+  "profilesLabel": {
+    "message": "Perfiles"
+  },
+  "profileNameLabel": {
+    "message": "Nombre del perfil"
+  },
+  "newProfile": {
+    "message": "Nuevo"
+  },
+  "createProfileTitle": {
+    "message": "Crear perfil"
+  },
+  "createProfile": {
+    "message": "Crear"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "deleteProfile": {
+    "message": "Eliminar perfil"
+  },
+  "duplicateProfile": {
+    "message": "Duplicar perfil"
+  },
+  "profileDuplicated": {
+    "message": "Perfil duplicado."
+  },
+  "moveProfileUp": {
+    "message": "Mover $1 arriba"
+  },
+  "moveProfileDown": {
+    "message": "Mover $1 abajo"
+  },
+  "profileDeleteConfirm": {
+    "message": "¿Eliminar el perfil \"$1\"? Sus valores capturados también se eliminarán."
+  },
+  "compactMode": {
+    "message": "Compacto"
+  },
+  "settingsTitle": {
+    "message": "Configuración"
+  },
+  "settingsGeneralTab": {
+    "message": "General"
+  },
+  "settingsDescription": {
+    "message": "Configura los ajustes compartidos por todas las pantallas de Header Relay."
+  },
+  "settingsAppearance": {
+    "message": "Apariencia"
+  },
+  "settingsCompactDescription": {
+    "message": "Usa un espaciado más denso y controles más pequeños en toda la extensión."
+  },
+  "settingsPrivacy": {
+    "message": "Privacidad"
+  },
+  "settingsPrivacyDescription": {
+    "message": "Revisa cómo Header Relay gestiona la configuración, los valores capturados y los registros de auditoría."
+  },
+  "homepage": {
+    "message": "Página principal"
+  },
+  "buyMeACoffee": {
+    "message": "Buy Me a Coffee"
+  },
+  "sectionOverview": {
+    "message": "Resumen"
+  },
+  "sectionOrigins": {
+    "message": "Orígenes objetivo"
+  },
+  "targetOriginLabel": {
+    "message": "Origen objetivo"
+  },
+  "sectionHeaders": {
+    "message": "Encabezados"
+  },
+  "sectionFixed": {
+    "message": "Encabezados fijos"
+  },
+  "sectionCapture": {
+    "message": "Encabezados capturados"
+  },
+  "sectionExclude": {
+    "message": "Rutas excluidas"
+  },
+  "sectionProbe": {
+    "message": "Sonda de URL"
+  },
+  "sectionLogs": {
+    "message": "Registros de auditoría"
+  },
+  "sectionAdvanced": {
+    "message": "Configuración avanzada"
+  },
+  "advancedSettingsDescription": {
+    "message": "Ejecuta pruebas de URL, revisa el registro de auditoría o edita el JSON de configuración completo."
+  },
+  "advancedJsonEditorTab": {
+    "message": "Editor JSON"
+  },
+  "tileTargetOrigins": {
+    "message": "Orígenes objetivo"
+  },
+  "tileFixedHeadersSummary": {
+    "message": "Encabezados fijos configurados / activos"
+  },
+  "tileCapturedValues": {
+    "message": "Valores capturados"
+  },
+  "tileDnrSessionRules": {
+    "message": "Reglas de sesión DNR"
+  },
+  "activeHeadersTitle": {
+    "message": "Encabezados activos para solicitudes coincidentes"
+  },
+  "activeHeadersDescription": {
+    "message": "Encabezados que se adjuntarán cuando este perfil coincida con la URL de la solicitud."
+  },
+  "noActiveHeaders": {
+    "message": "No hay encabezados de solicitud activos."
+  },
+  "capturedPanelTitle": {
+    "message": "Valores capturados"
+  },
+  "capturedPanelDescription": {
+    "message": "Últimos valores de encabezados de respuesta almacenados en la sesión actual de la extensión."
+  },
+  "noCapturedValues": {
+    "message": "No hay valores capturados."
+  },
+  "copyCapturedValue": {
+    "message": "Copiar"
+  },
+  "copiedCapturedValue": {
+    "message": "Copiado"
+  },
+  "sessionValuesTitle": {
+    "message": "Valores de la sesión actual"
+  },
+  "clearCapturedValues": {
+    "message": "Borrar valores capturados"
+  },
+  "clearCapturedValuesDescription": {
+    "message": "Borrar elimina los valores capturados actuales pero conserva este perfil y su configuración de encabezados. Desactivar el perfil también borra estos valores."
+  },
+  "originsDescription": {
+    "message": "Orígenes donde se permite la emulación de encabezados. Las solicitudes fuera de estos orígenes se ignoran."
+  },
+  "originAccessGranted": {
+    "message": "Acceso concedido"
+  },
+  "originAccessRequired": {
+    "message": "Acceso requerido"
+  },
+  "originUnsupported": {
+    "message": "Origen no compatible"
+  },
+  "originGrantAccess": {
+    "message": "Permitir acceso"
+  },
+  "originsPermissionNote": {
+    "message": "Al guardar se solicita acceso de host para los orígenes añadidos. El acceso cubre todos los puertos de ese host, se usa solo para el reenvío de encabezados de esta extensión y puede revocarse en cualquier momento desde la configuración de extensiones de Chrome."
+  },
+  "revokeOrphanedConfirm": {
+    "message": "Estos permisos de host ya no los usa ningún perfil:\n$1\n¿Revocarlos ahora?"
+  },
+  "popupAccessRequired": {
+    "message": "Se requiere acceso de host para:"
+  },
+  "addOrigin": {
+    "message": "Añadir origen"
+  },
+  "fixedDescription": {
+    "message": "Los nombres y valores se guardan en la configuración local de la extensión hasta que los elimines. Los valores activados se adjuntan solo a las solicitudes coincidentes y no se envían a ningún otro lugar."
+  },
+  "addFixedHeader": {
+    "message": "Añadir encabezado fijo"
+  },
+  "captureDescription": {
+    "message": "Solo estos nombres se leen de las respuestas coincidentes. Los valores permanecen en memoria durante la sesión actual del navegador, se reutilizan solo en solicitudes coincidentes y se borran al reiniciar el navegador, desactivar el perfil o cambiar las reglas."
+  },
+  "addCapturedHeader": {
+    "message": "Añadir encabezado capturado"
+  },
+  "headerNameLabel": {
+    "message": "Nombre del encabezado"
+  },
+  "headerValueLabel": {
+    "message": "Valor del encabezado"
+  },
+  "sensitiveHeaderWarning": {
+    "message": "Encabezado sensible: su valor puede contener credenciales. Usa credenciales de prueba y limita los orígenes objetivo."
+  },
+  "cookieHeaderWarning": {
+    "message": "Encabezado sensible: sobrescribir Cookie puede entrar en conflicto con el almacén de cookies de Chrome y el estado de autenticación. Limita los orígenes objetivo y usa datos de prueba."
+  },
+  "blockedHeaderWarning": {
+    "message": "No disponible: los encabezados de solo respuesta, autoridad de la solicitud, delimitación de mensajes, proxy y conexión no pueden reenviarse de forma segura."
+  },
+  "excludeDescription": {
+    "message": "Patrones glob dentro de los orígenes objetivo donde se eliminan los encabezados gestionados por el emulador."
+  },
+  "addPath": {
+    "message": "Añadir ruta"
+  },
+  "excludedPathHelpTitle": {
+    "message": "Coincidencia glob"
+  },
+  "excludedPathHelp": {
+    "message": "Introduce un glob de ruta completa como /assets/**. Usa * dentro de un segmento de ruta, ** entre segmentos y ? para un carácter. El patrón debe coincidir con toda la ruta, así que /assets solo coincide con /assets; usa /assets/** para todo lo que hay debajo. Las cadenas de consulta y los fragmentos se ignoran, y las reglas se aplican solo dentro de los orígenes objetivo."
+  },
+  "excludedPathLabel": {
+    "message": "Ruta excluida"
+  },
+  "excludedPathRequired": {
+    "message": "Introduce una ruta."
+  },
+  "excludedPathMustStartWithSlash": {
+    "message": "Introduce una ruta que empiece por /."
+  },
+  "excludedPathUrlNotAllowed": {
+    "message": "Introduce una ruta como /assets/**, no una URL completa."
+  },
+  "excludedPathSingleLine": {
+    "message": "Introduce la ruta en una sola línea."
+  },
+  "excludedPathRootWarning": {
+    "message": "/** excluye todas las URL dentro de los orígenes objetivo de este perfil."
+  },
+  "excludedPathTesterTitle": {
+    "message": "Comprobador de rutas excluidas"
+  },
+  "excludedPathTesterDescription": {
+    "message": "Prueba una URL real contra el borrador de perfil actual sin guardar."
+  },
+  "excludedPathTesterOrigin": {
+    "message": "Origen objetivo"
+  },
+  "excludedPathTesterExcluded": {
+    "message": "Excluida"
+  },
+  "excludedPathTesterMatched": {
+    "message": "Patrón coincidente"
+  },
+  "probeDescription": {
+    "message": "Comprueba si una URL coincide, está excluida y qué encabezados de solicitud se adjuntarían antes de visitarla."
+  },
+  "runProbe": {
+    "message": "Ejecutar sonda"
+  },
+  "testUrlLabel": {
+    "message": "URL que se probará"
+  },
+  "probeUrlRequired": {
+    "message": "Introduce una URL."
+  },
+  "probeUrlInvalid": {
+    "message": "Introduce una URL absoluta válida."
+  },
+  "probeTestedUrl": {
+    "message": "URL probada"
+  },
+  "probeTestedUrlDesc": {
+    "message": "La URL normalizada evaluada a partir de este borrador."
+  },
+  "probeAllowed": {
+    "message": "Permitida"
+  },
+  "probeAllowedDesc": {
+    "message": "Sí significa que al menos un perfil activado adjunta un encabezado a esta URL."
+  },
+  "probeExcluded": {
+    "message": "Excluida"
+  },
+  "probeAttach": {
+    "message": "Adjuntar"
+  },
+  "auditDescription": {
+    "message": "Historial de ejecución de coincidencias de URL, captura de encabezados, cambios de sesión y sincronización de reglas DNR. Las URL de las solicitudes se mantienen en memoria solo durante la sesión actual del navegador y nunca se guardan en disco."
+  },
+  "auditLevel": {
+    "message": "Nivel mínimo"
+  },
+  "auditLevelAll": {
+    "message": "Todos"
+  },
+  "auditLevelInfoUp": {
+    "message": "Info o superior"
+  },
+  "auditLevelWarnUp": {
+    "message": "Warn o superior"
+  },
+  "auditLevelErrorOnly": {
+    "message": "Solo error"
+  },
+  "auditLevelBadgeDebug": {
+    "message": "Depuración"
+  },
+  "auditLevelBadgeInfo": {
+    "message": "Información"
+  },
+  "auditLevelBadgeWarn": {
+    "message": "Advertencia"
+  },
+  "auditLevelBadgeError": {
+    "message": "Error"
+  },
+  "auditEventOriginMatched": {
+    "message": "Origen coincidente"
+  },
+  "auditEventHeadersCaptured": {
+    "message": "Encabezados capturados"
+  },
+  "auditEventSessionCleared": {
+    "message": "Sesión borrada"
+  },
+  "auditEventConfigCompiled": {
+    "message": "Configuración compilada"
+  },
+  "auditEventDnrRulesSynced": {
+    "message": "Reglas de solicitud sincronizadas"
+  },
+  "auditEventCookiesUpdated": {
+    "message": "Cookies actualizadas"
+  },
+  "auditEventCookieParseFailed": {
+    "message": "Error al analizar la cookie"
+  },
+  "auditEventError": {
+    "message": "Error"
+  },
+  "clearLogs": {
+    "message": "Borrar registros"
+  },
+  "noAuditLogs": {
+    "message": "No hay registros de auditoría."
+  },
+  "noAuditLogsAtLevel": {
+    "message": "No hay registros de auditoría con este nivel."
+  },
+  "auditFullUrl": {
+    "message": "URL completa"
+  },
+  "auditMessage": {
+    "message": "Mensaje"
+  },
+  "auditTab": {
+    "message": "Pestaña"
+  },
+  "auditRequest": {
+    "message": "Solicitud"
+  },
+  "auditHeaders": {
+    "message": "Encabezados"
+  },
+  "auditData": {
+    "message": "Datos"
+  },
+  "advancedDescription": {
+    "message": "Editor JSON directo para inspección y recuperación avanzada de la configuración."
+  },
+  "applyJson": {
+    "message": "Aplicar JSON"
+  },
+  "configJsonLabel": {
+    "message": "JSON de configuración"
+  },
+  "exportConfig": {
+    "message": "Exportar configuración"
+  },
+  "importConfig": {
+    "message": "Importar configuración"
+  },
+  "includeSecretValues": {
+    "message": "Incluir valores secretos"
+  },
+  "configReplaceConfirm": {
+    "message": "Esto reemplazará toda la configuración existente. ¿Continuar?"
+  },
+  "configExported": {
+    "message": "Configuración exportada."
+  },
+  "configImported": {
+    "message": "Configuración importada."
+  },
+  "compileErrorTitle": {
+    "message": "Error de compilación"
+  },
+  "compileWarningsTitle": {
+    "message": "Advertencias de compilación"
+  },
+  "compileWarningNoTargetOrigins": {
+    "message": "El perfil \"$1\" no tiene ningún origen objetivo activado."
+  },
+  "compileWarningNoHeaders": {
+    "message": "El perfil \"$1\" todavía no añade encabezados."
+  },
+  "compileWarningExcludedPathsRemoveHeaders": {
+    "message": "El perfil \"$1\" elimina sus propios encabezados reenviados en las rutas excluidas."
+  },
+  "compileWarningCookieExclusion": {
+    "message": "Las reglas de Cookie se omiten en $1: las rutas excluidas ($2) no pueden conservar la Cookie propia del navegador, así que se envía sin cambios en este origen."
+  },
+  "compileErrorHeaderConflict": {
+    "message": "Varios perfiles activados ($3) establecen el encabezado \"$1\" en $2. Desactiva todos menos uno."
+  },
+  "compileErrorCookieConflict": {
+    "message": "Varios perfiles activados ($3) establecen la cookie \"$1\" en $2. Desactiva todos menos uno."
+  },
+  "runtimeStatusTitle": {
+    "message": "Estado de ejecución"
+  },
+  "runtimeStatusDescription": {
+    "message": "Cómo se aplican actualmente en el navegador todos los perfiles activados."
+  },
+  "tileEnabledProfiles": {
+    "message": "Perfiles activados"
+  },
+  "tileProfileDnrRules": {
+    "message": "Reglas DNR de este perfil"
+  },
+  "tileCompileErrors": {
+    "message": "Errores de compilación"
+  },
+  "tileCompileWarnings": {
+    "message": "Advertencias de compilación"
+  },
+  "probeMatchedProfiles": {
+    "message": "Perfiles coincidentes"
+  },
+  "probeNoMatchedProfiles": {
+    "message": "Ningún perfil activado coincide con esta URL."
+  },
+  "probeMatchedProfileCount": {
+    "message": "Perfiles coincidentes"
+  },
+  "probeMatchedProfileCountDesc": {
+    "message": "Perfiles activados cuyo origen objetivo coincide con esta URL."
+  },
+  "probeEffectiveHeaders": {
+    "message": "Encabezados efectivos"
+  },
+  "probeEffectiveHeadersDesc": {
+    "message": "Nombres de encabezados realmente adjuntados a la solicitud tras aplicar rutas excluidas y conflictos."
+  },
+  "probeCookieHeader": {
+    "message": "Encabezado Cookie"
+  },
+  "probeCookieHeaderDesc": {
+    "message": "Valor final del encabezado Cookie enviado a la URL de destino. `none` significa que se conserva el Cookie original que Chrome generó."
+  },
+  "probeCookieHeaderNone": {
+    "message": "none (se envía el Cookie original de Chrome)"
+  },
+  "popupEnabledProfiles": {
+    "message": "Perfiles activados"
+  },
+  "popupProfiles": {
+    "message": "Perfiles"
+  },
+  "popupNoProfiles": {
+    "message": "No hay perfiles configurados"
+  },
+  "popupAllProfilesDisabled": {
+    "message": "Ningún perfil está activado"
+  },
+  "popupCapturedBy": {
+    "message": "Capturado por $1"
+  },
+  "sectionCookies": {
+    "message": "Cookies"
+  },
+  "sectionMigration": {
+    "message": "Problemas de migración"
+  },
+  "cookiesDescription": {
+    "message": "Cookies para adjuntar a las solicitudes. Las cookies fijas siempre se aplican; las rastreadas capturan valores de respuestas Set-Cookie."
+  },
+  "addFixedCookie": {
+    "message": "Añadir cookie fija"
+  },
+  "addTrackedCookie": {
+    "message": "Añadir cookie rastreada"
+  },
+  "fixedCookiesTitle": {
+    "message": "Cookies fijas"
+  },
+  "trackedCookiesTitle": {
+    "message": "Cookies rastreadas"
+  },
+  "cookieNameLabel": {
+    "message": "Nombre de la cookie"
+  },
+  "cookieValueLabel": {
+    "message": "Valor de la cookie"
+  },
+  "trackedCookieValueLabel": {
+    "message": "Valor capturado"
+  },
+  "clearTrackedCookieAction": {
+    "message": "Borrar valor"
+  },
+  "clearAllTrackedCookies": {
+    "message": "Borrar todas las cookies rastreadas"
+  },
+  "clearAllTrackedCookiesConfirm": {
+    "message": "¿Borrar todos los valores de cookies rastreadas de este perfil?"
+  },
+  "noFixedCookies": {
+    "message": "No hay cookies fijas configuradas."
+  },
+  "noTrackedCookies": {
+    "message": "No hay cookies rastreadas configuradas."
+  },
+  "noTrackedCookieValue": {
+    "message": "aún no capturado"
+  },
+  "migrationIssuesDescription": {
+    "message": "Configuraciones antiguas de encabezado Cookie que no pudieron migrarse automáticamente. Elimínalas después de reconfigurar las cookies abajo."
+  },
+  "migrationIssueDismiss": {
+    "message": "Eliminar"
+  },
+  "migrationIssueSourceFixed": {
+    "message": "Encabezado fijo “Cookie”"
+  },
+  "migrationIssueSourceCapture": {
+    "message": "Encabezado capturado “Cookie”"
+  },
+  "migrationIssueReasonPopupMismatch": {
+    "message": "No se pueden reproducir las opciones del selector emergente."
+  },
+  "migrationIssueReasonParseFail": {
+    "message": "No se puede analizar el valor de la cookie."
+  },
+  "migrationIssueReasonDuplicate": {
+    "message": "Nombre de cookie duplicado entre encabezados."
+  },
+  "migrationIssueReasonCapture": {
+    "message": "El encabezado Cookie capturado no tiene un nombre de destino inequívoco."
+  },
+  "migrationIssueOriginalHeaderLabel": {
+    "message": "Valor original"
+  },
+  "noMigrationIssues": {
+    "message": "Sin problemas de migración."
+  },
+  "popupCookiesTitle": {
+    "message": "Cookies"
+  },
+  "popupCookieFixedLabel": {
+    "message": "Fijo"
+  },
+  "popupCookieTrackedLabel": {
+    "message": "Rastreado"
+  },
+  "popupCookieNoValueYet": {
+    "message": "aún no capturado"
+  },
+  "popupCookieClearAll": {
+    "message": "Borrar cookies rastreadas"
+  },
+  "popupCookieClearOne": {
+    "message": "Borrar"
+  },
+  "popupNoCookies": {
+    "message": "No hay cookies para esta página."
+  },
+  "popupNoMatchTitle": {
+    "message": "Ningún perfil tiene este sitio como objetivo."
+  },
+  "popupNoMatchHint": {
+    "message": "Añade el origen de este sitio a un perfil para reenviar encabezados aquí."
+  },
+  "popupAddOrigin": {
+    "message": "Añadir este sitio"
+  },
+  "popupUnsupportedPage": {
+    "message": "Header Relay solo se aplica a páginas http y https."
+  },
+  "runtimeStaleRules": {
+    "message": "No se pudieron actualizar las reglas de la extensión. El conjunto anterior sigue activo — recargar puede solucionarlo."
+  },
+  "runtimeStaleFailedRules": {
+    "message": "Advertencia: la actualización DNR y el reintento de solo eliminación fallaron. Es posible que aún se envíen reglas obsoletas."
+  },
+  "rateOnStore": {
+    "message": "Valorar en Chrome Web Store"
+  },
+  "reviewPromptAskTitle": {
+    "message": "¿Te resulta útil Header Relay?"
+  },
+  "reviewPromptYes": {
+    "message": "Sí"
+  },
+  "reviewPromptNo": {
+    "message": "No mucho"
+  },
+  "reviewPromptLater": {
+    "message": "Más tarde"
+  },
+  "reviewPromptRateBody": {
+    "message": "Una reseña en Chrome Web Store ayuda a que otros desarrolladores la encuentren."
+  },
+  "reviewPromptRateAction": {
+    "message": "Escribir una reseña"
+  },
+  "reviewPromptFeedbackBody": {
+    "message": "Cuéntanos qué falta para poder mejorarlo."
+  },
+  "reviewPromptFeedbackAction": {
+    "message": "Enviar comentarios"
+  },
+  "reviewPromptClose": {
+    "message": "Cerrar"
+  }
+}
