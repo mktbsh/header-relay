@@ -4,5 +4,13 @@ allowBuilds:
 minimumReleaseAge: 7200
 minimumReleaseAgeExclude:
   - "@changesets/*"
-  - wxt@0.20.27
+# Transitive versions pinned by upstream that still have security advisories.
+# adbkit only serves web-ext's firefox-android target, and its node-forge has no patched release.
+overrides:
+  "web-ext>@devicefarmer/adbkit": "-"
+  "esbuild@<0.28.1": ^0.28.1
+  "seroval@<1.6.3": ^1.6.8
+  "seroval-plugins@<1.6.3": ^1.6.8
+  "shell-quote@<1.11.0": ^1.12.0
+  "tinypool@<2.1.2": ^2.1.2
 saveExact: true

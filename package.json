@@ -33,7 +33,7 @@
     "idb": "^8.0.3",
     "solid-js": "^1.9.14",
     "tailwindcss": "^4.3.3",
-    "wxt": "0.20.27",
+    "wxt": "0.21.4",
     "zod": "^4.4.3"
   },
   "devDependencies": {
@@ -46,6 +46,7 @@
     "oxlint": "1.74.0",
     "typescript": "^7.0.2",
     "vite": "8.1.5",
-    "vitest": "^4.1.10"
+    "vitest": "^4.1.11",
+    "web-ext": "10.7.0"
   }
 }
