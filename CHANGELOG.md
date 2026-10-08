@@ -1,5 +1,11 @@
 # header-relay
 
+## 0.10.1
+
+### Patch Changes
+
+- [#3](https://github.com/mktbsh/header-relay/pull/3) [`b5b53a5`](https://github.com/mktbsh/header-relay/commit/b5b53a5c1608b752778c6191338c16e1f0a64731) Thanks [@mktbsh](https://github.com/mktbsh)! - ビルドツールを WXT 0.21 に更新し、脆弱性が報告されていた依存パッケージを修正版に更新しました。
+
 ## 0.10.0
 
 ### Minor Changes

@@ -1,6 +1,6 @@
 {
   "name": "header-relay",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "private": true,
   "description": "Chrome extension that captures HTTP response headers and relays fixed or captured headers to matching browser requests.",
   "license": "MIT",
