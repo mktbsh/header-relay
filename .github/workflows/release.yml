@@ -89,16 +89,19 @@ jobs:
       - name: Build extension zip
         run: pnpm zip
 
-      - name: Extract release notes
+      - name: Collect release files
         id: meta
         run: |
           version="$(node -p "require('./package.json').version")"
+          # upload-artifact skips files under dot-directories such as .output, so stage them elsewhere.
+          mkdir release
+          cp .output/*.zip release/
           awk -v heading="## ${version}" '
             $0 == heading { found = 1; next }
             found && /^## / { exit }
             found { print }
-          ' CHANGELOG.md > .output/release-notes.md
-          test -s .output/release-notes.md
+          ' CHANGELOG.md > release/release-notes.md
+          test -s release/release-notes.md
           echo "version=${version}" >> "${GITHUB_OUTPUT}"
 
       - name: Upload release files
@@ -106,8 +109,8 @@ jobs:
         with:
           name: release
           path: |
-            .output/*.zip
-            .output/release-notes.md
+            release/*.zip
+            release/release-notes.md
           if-no-files-found: error
           retention-days: 7
 
